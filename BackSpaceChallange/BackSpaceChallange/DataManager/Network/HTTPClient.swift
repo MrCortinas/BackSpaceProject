@@ -16,8 +16,8 @@ struct cityData : Codable {
 }
 
 struct coord: Codable {
-    let lon: Double
-    let lat: Double
+    let lon: Double?
+    let lat: Double?
 }
 
 

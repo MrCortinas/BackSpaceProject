@@ -1,4 +1,4 @@
-//
+ //
 //  ViewController.swift
 //  BackSpaceChallange
 //
@@ -16,6 +16,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        let test = CityDataMagager()
+        
+        test.loadData()
         
         
         // Do any additional setup after loading the view, typically from a nib.

@@ -1,7 +1,8 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "0ea64c4e5419f035682216072f2d19a0"
-build_time: [1527896825, 552664000]
+build_time: [1527919549, 854306000]
 inputs:
-  "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallange/ViewController.swift": [1527896780, 0]
+  "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallange/ViewController.swift": [1527905661, 0]
   "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallange/AppDelegate.swift": [1527889342, 0]
-  "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallange/DataManager/Network/HTTPClient.swift": [1527896780, 0]
+  "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallange/DataManager/Network/HTTPClient.swift": [1527918853, 0]
+  "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallange/DataManager/CityDataMagager.swift": [1527919549, 0]
