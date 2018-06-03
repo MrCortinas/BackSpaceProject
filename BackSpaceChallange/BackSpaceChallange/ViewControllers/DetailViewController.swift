@@ -24,12 +24,10 @@ class DetailViewController: UIViewController,UITableViewDelegate, UITableViewDat
             let span = MKCoordinateSpanMake(15, 15)
             let region =  MKCoordinateRegionMake(location, span)
             mapView.setRegion(region, animated: true)
-            //
             let annonation = MKPointAnnotation()
             annonation.coordinate = location
             annonation.title = CityDataMagager.share.currentCitySelected?.name ?? ""
             annonation.subtitle = CityDataMagager.share.currentCitySelected?.country ?? ""
-            //
             mapView.addAnnotation(annonation)
         }
     }
@@ -54,15 +52,6 @@ class DetailViewController: UIViewController,UITableViewDelegate, UITableViewDat
         cell.detailTextLabel?.text = cellInfo.value
         return cell
     }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-    }
-    
-    
-    
-    
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -71,28 +72,64 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="0tw-kq-ut4"/>
                                 </connections>
                             </tableView>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="4xB-t5-NKW">
+                            <searchBar contentMode="redraw" placeholder="Search by City Name" translatesAutoresizingMaskIntoConstraints="NO" id="4xB-t5-NKW">
                                 <rect key="frame" x="0.0" y="64" width="375" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="wYS-hd-9ht"/>
                                 </connections>
                             </searchBar>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O28-t4-3ck">
+                                <rect key="frame" x="16" y="77" width="343" height="512"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="O1f-xk-Put">
+                                        <rect key="frame" x="153" y="238" width="37" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </activityIndicatorView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pW3-ld-iQS">
+                                        <rect key="frame" x="8" y="126" width="327" height="77"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                        <color key="textColor" red="1" green="1" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please wait " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ntb-K6-jtk">
+                                        <rect key="frame" x="8" y="292" width="327" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                        <color key="textColor" red="1" green="1" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[you can add a loading anumation here]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="frk-lW-AQP">
+                                <rect key="frame" x="16" y="507" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="4xB-t5-NKW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3wv-O1-bKb"/>
                             <constraint firstItem="jz1-52-OWo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4Rn-Fs-hcy"/>
+                            <constraint firstItem="O28-t4-3ck" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="9Ib-r2-fZl"/>
                             <constraint firstItem="jz1-52-OWo" firstAttribute="top" secondItem="4xB-t5-NKW" secondAttribute="bottom" id="GXM-Ln-RVb"/>
+                            <constraint firstItem="O28-t4-3ck" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Hxr-zT-Do9"/>
                             <constraint firstItem="jz1-52-OWo" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="SDF-X9-XqB"/>
+                            <constraint firstItem="O28-t4-3ck" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kGQ-7Y-6Vp"/>
                             <constraint firstItem="4xB-t5-NKW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kXB-aC-zRZ"/>
                             <constraint firstItem="4xB-t5-NKW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kyI-75-hcA"/>
+                            <constraint firstItem="O28-t4-3ck" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mAh-OB-Uho"/>
                             <constraint firstItem="jz1-52-OWo" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="yvU-hd-NRF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="bzs-3z-wat"/>
                     <connections>
+                        <outlet property="loadingScreen" destination="O28-t4-3ck" id="chi-lV-NeN"/>
                         <outlet property="searchDisplayController" destination="Twj-jx-zPM" id="HLg-1O-NWu"/>
                         <outlet property="serachBar" destination="4xB-t5-NKW" id="ViF-Ot-Xlq"/>
                         <outlet property="tableview" destination="jz1-52-OWo" id="uzg-tE-XvV"/>

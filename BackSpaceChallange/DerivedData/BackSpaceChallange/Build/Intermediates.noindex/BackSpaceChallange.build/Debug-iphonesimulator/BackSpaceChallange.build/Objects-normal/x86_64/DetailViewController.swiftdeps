@@ -99,6 +99,7 @@ depends-member:
 - ["s7CVarArgP", "viewForZooming"]
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
 - !private ["18BackSpaceChallange15CityDataMagagerC", "currentCitySelected"]
+- ["18BackSpaceChallange15CityDataMagagerC", "deinit"]
 - ["18BackSpaceChallange15CityDataMagagerC", "getCityDetailInformation"]
 - ["18BackSpaceChallange15CityDataMagagerC", "share"]
 - !private ["18BackSpaceChallange17CityDataProtocolsP", "currentCitySelected"]
@@ -1420,4 +1421,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "5c9976bd42b711936e9766c1864c8599"
+interface-hash: "217f2b8e849654c66f084df386c60426"

@@ -12,19 +12,20 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
     @IBOutlet var tableview: UITableView!
     @IBOutlet var serachBar: UISearchBar!
+    @IBOutlet var loadingScreen: UIView!
+    
     
     var cityList:[String] = []
     var cityDict:Dictionary<String, [cityInformation]> = [:]
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.loadingScreen.isHidden = false
         CityDataMagager.share.loadData { (sortedKeys) in
             guard let keys = sortedKeys else { return }
-            print("Number of groups:\(CityDataMagager.share.dict.count)")
-            let sortedDict = CityDataMagager.share.dict.sorted { $0.key < $1.key }
-            sortedDict.forEach { print("\($0): \($1.count)") }
             self.cityList = keys
             self.cityDict = CityDataMagager.share.dict
+            self.loadingScreen.isHidden = true
             self.tableview.reloadData()
         }
         // Do any additional setup after loading the view, typically from a nib.
@@ -60,38 +61,9 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        if !searchText.isEmpty {
-            var newListofCIties = [cityInformation]()
-            let groupIndex = searchText.prefix(1)
-            let key:String = String(groupIndex).uppercased()
-            let SearchList = CityDataMagager.share.dict[key]
-            SearchList?.forEach({ (information) in
-                let maxIndex = information.fullName.endIndex
-                if (searchText.endIndex <= maxIndex) {
-                    let name = information.fullName.prefix(upTo: searchText.endIndex)
-                    let str = String(name).uppercased()
-                    if str.contains(searchText.uppercased())  {
-                        print("found \(searchText) in \(name) for \(information.fullName)")
-                        newListofCIties.append(information)
-                    } else {
-                        print("not found \(name)")
-                    }
-                } else {
-                    print("out of index: \(information.fullName)")
-                }
-//                if name.contains(searchText.lowercased()) {
-//                    print("found \(searchText) in \(name)")
-//                    newListofCIties.append(information)
-//                }
-            })
-            self.cityDict = [key:newListofCIties]
-            self.cityList = [key]
-            self.tableview.reloadData()
-        } else {
-            self.cityDict = CityDataMagager.share.dict
-            self.cityList = CityDataMagager.share.dict.keys.sorted()
-            self.tableview.reloadData()
-        }
+        self.cityDict = CityDataMagager.share.getFilterResult(searchText: searchText)
+        self.cityList = cityDict.keys.sorted()
+        self.tableview.reloadData()
     }
     
     override func didReceiveMemoryWarning() {

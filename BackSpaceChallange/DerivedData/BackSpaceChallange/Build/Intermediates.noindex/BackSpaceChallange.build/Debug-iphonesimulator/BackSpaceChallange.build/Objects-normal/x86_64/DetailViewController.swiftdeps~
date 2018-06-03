@@ -99,6 +99,7 @@ depends-member:
 - ["s7CVarArgP", "viewForZooming"]
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
 - !private ["18BackSpaceChallange15CityDataMagagerC", "currentCitySelected"]
+- ["18BackSpaceChallange15CityDataMagagerC", "deinit"]
 - ["18BackSpaceChallange15CityDataMagagerC", "getCityDetailInformation"]
 - ["18BackSpaceChallange15CityDataMagagerC", "share"]
 - !private ["18BackSpaceChallange17CityDataProtocolsP", "currentCitySelected"]

@@ -26,7 +26,10 @@ struct cityInformation {
 }
 
 protocol CityDataProtocols {
-    
+    func loadData(completionHandler: @escaping (_ sortedKeys:[String]?) -> Void)
+    func getFilterResult(searchText: String) -> Dictionary<String, [cityInformation]>
+    func getFilterMethodAlternative(searchText: String) -> Dictionary<String, [cityInformation]>
+    func getCityDetailInformation() -> [(info:String,value:String)]
 }
 
 
@@ -34,32 +37,38 @@ class CityDataMagager: CityDataProtocols {
     
     static let share = CityDataMagager()
     var dict:Dictionary<String, [cityInformation]> = [:]
-    var indexList:[String:[String:String]] = [:]
     var currentCitySelected:cityInformation? = nil
-    
     
     func loadData(completionHandler: @escaping (_ sortedKeys:[String]?) -> Void) {
         let client = HTTPClient()
-        client.getMyData { (myData) in
-            guard let data = myData else { return }
-            var fullCityList:Dictionary<String, [cityInformation]> = [:]
-            data.forEach({ (cityData) in
-                //validate information roots you can root out bad data
-                guard let name = cityData.name else { return }
-                guard let country = cityData.country else { return }
-                let city:cityInformation = cityInformation(completeName: "\(name), \(country)", city: cityData)
-                let firstletter = city.fullName.prefix(1)
-                let key:String = String(firstletter).uppercased()
-                var citiesList: Array<cityInformation> = fullCityList[key] ?? []
-                citiesList.append(city)
-                fullCityList.updateValue(citiesList, forKey: key)
-            })
-            self.dict = self.sortCityGroups(groupOfCities: fullCityList)
-            DispatchQueue.main.async { completionHandler(self.dict.keys.sorted()) }
+        DispatchQueue.global(qos: .userInteractive).async {
+            client.getMyData { (myData) in
+                guard let data = myData else { return }
+                var fullCityList:Dictionary<String, [cityInformation]> = [:]
+                data.forEach({ (cityData) in
+                    //validate information roots you can root out bad data
+                    guard let name = cityData.name else { return }
+                    guard let country = cityData.country else { return }
+                    //create a new sortable value so we can sort by name and country
+                    let city:cityInformation = cityInformation(completeName: "\(name), \(country)", city: cityData)
+                    //get first character of city so we can separathem by
+                    let firstletter = city.fullName.prefix(1)
+                    let key:String = String(firstletter).uppercased()
+                    //get Array if it exist
+                    var citiesList: Array<cityInformation> = fullCityList[key] ?? []
+                    //add new city to array to group
+                    citiesList.append(city)
+                    fullCityList.updateValue(citiesList, forKey: key)
+                })
+                DispatchQueue.main.async {
+                    self.dict = self.sortCityGroups(groupOfCities: fullCityList)
+                    completionHandler(self.dict.keys.sorted())
+                }
+            }
         }
     }
     
-    func sortCityGroups(groupOfCities:[String:[cityInformation]]) -> [String:[cityInformation]] {
+    private func sortCityGroups(groupOfCities:[String:[cityInformation]]) -> [String:[cityInformation]] {
         var sortedGroups:Dictionary<String, [cityInformation]> = [:]
         groupOfCities.forEach { (key,value) in
             let sortedValue = self.sortCities(cityList: value)
@@ -68,33 +77,48 @@ class CityDataMagager: CityDataProtocols {
         return sortedGroups
     }
     
-    func sortCities(cityList:Array<cityInformation>) -> Array<cityInformation> {
+    private func sortCities(cityList:Array<cityInformation>) -> Array<cityInformation> {
         var sortedList = cityList
         sortedList.sort { $0.fullName < $1.fullName}
         return sortedList
     }
     
-    func indexCreator() {
-        //add fast search algorith here
-        var separayedDict:[String:[String:[cityInformation]]] = [:]
-        
-        
-        self.dict.forEach { (key,value) in
-            
-            for city in value {
-                let index = String.Index.init(encodedOffset: 2)
-                let firstletter = city.fullName.prefix(upTo: index)
-                
-                
-            }
-            
-            
-            
+    func getFilterResult(searchText: String) -> Dictionary<String, [cityInformation]> {
+        if !searchText.isEmpty {
+            let keyLetter = searchText.prefix(1)
+            let key:String = String(keyLetter).uppercased()
+            let informationArray = self.dict[key]
+            guard let filterArray = informationArray?.filter({$0.fullName.starts(with:searchText)}) else { return [:] }
+            return [key:filterArray]
+        } else {
+            return self.dict
         }
-        
-        
-        
     }
+    
+    func getFilterMethodAlternative(searchText: String) -> Dictionary<String, [cityInformation]> {
+        if !searchText.isEmpty {
+            var newListofCIties = [cityInformation]()
+            let groupIndex = searchText.prefix(1)
+            let key:String = String(groupIndex).uppercased()
+            let SearchList = CityDataMagager.share.dict[key]
+            SearchList?.forEach({ (information) in
+                let maxIndex = information.fullName.endIndex
+                if (searchText.endIndex <= maxIndex) {
+                    let name = information.fullName.prefix(upTo: searchText.endIndex)
+                    let str = String(name).uppercased()
+                    // the contain can also be use if we whant to check if it
+                    if str.contains(searchText.uppercased())  {
+                        print("found \(searchText) in \(name) for \(information.fullName)")
+                        newListofCIties.append(information)
+                    }
+                }
+                })
+            return [key:newListofCIties]
+        } else {
+            return self.dict
+        }
+    }
+    
     
     func getCityDetailInformation() -> [(info:String,value:String)] {
         var listOfDetails:[(info:String,value:String)] = []
