@@ -34,7 +34,7 @@ class CityDataMagager: CityDataProtocols {
     
     static let share = CityDataMagager()
     var dict:Dictionary<String, [cityInformation]> = [:]
-    var indexList:[String:Any] = [:]
+    var indexList:[String:[String:String]] = [:]
     var currentCitySelected:cityInformation? = nil
     
     
@@ -76,6 +76,24 @@ class CityDataMagager: CityDataProtocols {
     
     func indexCreator() {
         //add fast search algorith here
+        var separayedDict:[String:[String:[cityInformation]]] = [:]
+        
+        
+        self.dict.forEach { (key,value) in
+            
+            for city in value {
+                let index = String.Index.init(encodedOffset: 2)
+                let firstletter = city.fullName.prefix(upTo: index)
+                
+                
+            }
+            
+            
+            
+        }
+        
+        
+        
     }
     
     func getCityDetailInformation() -> [(info:String,value:String)] {

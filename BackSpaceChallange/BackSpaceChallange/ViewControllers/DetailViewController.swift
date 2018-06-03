@@ -21,7 +21,7 @@ class DetailViewController: UIViewController,UITableViewDelegate, UITableViewDat
         // Do any additional setup after loading the view, typically from a nib.
         mapView.mapType = MKMapType.standard
         if let location = CityDataMagager.share.currentCitySelected?.location {
-            let span = MKCoordinateSpanMake(1, 1)
+            let span = MKCoordinateSpanMake(15, 15)
             let region =  MKCoordinateRegionMake(location, span)
             mapView.setRegion(region, animated: true)
             //
@@ -58,6 +58,11 @@ class DetailViewController: UIViewController,UITableViewDelegate, UITableViewDat
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
     }
+    
+    
+    
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
