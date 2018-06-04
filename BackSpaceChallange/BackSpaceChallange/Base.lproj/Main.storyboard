@@ -74,7 +74,7 @@
                             </tableView>
                             <searchBar contentMode="redraw" placeholder="Search by City Name" translatesAutoresizingMaskIntoConstraints="NO" id="4xB-t5-NKW">
                                 <rect key="frame" x="0.0" y="64" width="375" height="56"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="address-level2"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="wYS-hd-9ht"/>
                                 </connections>

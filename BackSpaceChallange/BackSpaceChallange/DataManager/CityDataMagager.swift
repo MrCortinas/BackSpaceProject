@@ -90,7 +90,7 @@ class CityDataMagager: CityDataProtocols {
             let keyLetter = searchText.prefix(1)
             let key:String = String(keyLetter).uppercased()
             let informationArray =  CityDataMagager.dict[key]
-            guard let filterArray = informationArray?.filter({$0.fullName.starts(with:searchText)}) else { return [:] }
+            guard let filterArray = informationArray?.filter({($0.fullName.uppercased()).starts(with:searchText.uppercased())}) else { return [:] }
             return [key:filterArray]
         } else {
             return  CityDataMagager.dict
