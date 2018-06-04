@@ -1,0 +1,4 @@
+Test Suite 'Selected tests' started at 2018-06-04 00:07:57.078
+Test Suite 'BackSpaceChallangeTests.xctest' started at 2018-06-04 00:07:57.078
+Test Suite 'TestBadData' started at 2018-06-04 00:07:57.079
+Test Case '-[BackSpaceChallangeTests.TestBadData testBadDataAvailable]' started.

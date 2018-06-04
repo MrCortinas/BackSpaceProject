@@ -16,15 +16,16 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
     
     var cityList:[String] = []
+    var cityDataMagager = CityDataMagager()
     var cityDict:Dictionary<String, [cityInformation]> = [:]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.loadingScreen.isHidden = false
-        CityDataMagager.share.loadData { (sortedKeys) in
+        cityDataMagager.loadData { (sortedKeys) in
             guard let keys = sortedKeys else { return }
             self.cityList = keys
-            self.cityDict = CityDataMagager.share.dict
+            self.cityDict = CityDataMagager.dict
             self.loadingScreen.isHidden = true
             self.tableview.reloadData()
         }
@@ -56,12 +57,12 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let cityData = cityDict[self.cityList[indexPath.section]] else { return }
         let currentCity = cityData[indexPath.item]
-        CityDataMagager.share.currentCitySelected = currentCity
+        CityDataMagager.currentCitySelected = currentCity
         performSegue(withIdentifier: "showMapDetails", sender: indexPath)
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        self.cityDict = CityDataMagager.share.getFilterResult(searchText: searchText)
+        self.cityDict = cityDataMagager.getFilterResult(searchText: searchText)
         self.cityList = cityDict.keys.sorted()
         self.tableview.reloadData()
     }

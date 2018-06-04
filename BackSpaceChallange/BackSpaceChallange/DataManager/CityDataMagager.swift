@@ -28,41 +28,43 @@ struct cityInformation {
 protocol CityDataProtocols {
     func loadData(completionHandler: @escaping (_ sortedKeys:[String]?) -> Void)
     func getFilterResult(searchText: String) -> Dictionary<String, [cityInformation]>
-    func getFilterMethodAlternative(searchText: String) -> Dictionary<String, [cityInformation]>
     func getCityDetailInformation() -> [(info:String,value:String)]
+    func validateLocation(location: CLLocationCoordinate2D) -> Bool
 }
 
 
 class CityDataMagager: CityDataProtocols {
     
-    static let share = CityDataMagager()
-    var dict:Dictionary<String, [cityInformation]> = [:]
-    var currentCitySelected:cityInformation? = nil
+//    static let share = CityDataMagager()
+    static var dict:Dictionary<String, [cityInformation]> = [:]
+    static var currentCitySelected:cityInformation? = nil
+    var client:httpProtocols = HTTPClient()
     
     func loadData(completionHandler: @escaping (_ sortedKeys:[String]?) -> Void) {
-        let client = HTTPClient()
         DispatchQueue.global(qos: .userInteractive).async {
-            client.getMyData { (myData) in
-                guard let data = myData else { return }
+            self.client.getMyData { (myData) in
+                guard let data = myData else {
+                    completionHandler(nil)
+                    return
+                }
                 var fullCityList:Dictionary<String, [cityInformation]> = [:]
                 data.forEach({ (cityData) in
-                    //validate information roots you can root out bad data
-                    guard let name = cityData.name else { return }
-                    guard let country = cityData.country else { return }
-                    //create a new sortable value so we can sort by name and country
-                    let city:cityInformation = cityInformation(completeName: "\(name), \(country)", city: cityData)
-                    //get first character of city so we can separathem by
-                    let firstletter = city.fullName.prefix(1)
-                    let key:String = String(firstletter).uppercased()
-                    //get Array if it exist
-                    var citiesList: Array<cityInformation> = fullCityList[key] ?? []
-                    //add new city to array to group
-                    citiesList.append(city)
-                    fullCityList.updateValue(citiesList, forKey: key)
+                    if self.validateCityInformation(city: cityData) {
+                        //create a new sortable value so we can sort by name and country
+                        let city:cityInformation = cityInformation(completeName: "\(cityData.name ?? ""), \(cityData.country ?? "")", city: cityData)
+                        //get first character of city so we can separathem by
+                        let firstletter = city.fullName.prefix(1)
+                        let key:String = String(firstletter).uppercased()
+                        //get Array if it exist
+                        var citiesList: Array<cityInformation> = fullCityList[key] ?? []
+                        //add new city to array to group
+                        citiesList.append(city)
+                        fullCityList.updateValue(citiesList, forKey: key)
+                    }
                 })
                 DispatchQueue.main.async {
-                    self.dict = self.sortCityGroups(groupOfCities: fullCityList)
-                    completionHandler(self.dict.keys.sorted())
+                    CityDataMagager.dict = self.sortCityGroups(groupOfCities: fullCityList)
+                    completionHandler(CityDataMagager.dict.keys.sorted())
                 }
             }
         }
@@ -87,11 +89,11 @@ class CityDataMagager: CityDataProtocols {
         if !searchText.isEmpty {
             let keyLetter = searchText.prefix(1)
             let key:String = String(keyLetter).uppercased()
-            let informationArray = self.dict[key]
+            let informationArray =  CityDataMagager.dict[key]
             guard let filterArray = informationArray?.filter({$0.fullName.starts(with:searchText)}) else { return [:] }
             return [key:filterArray]
         } else {
-            return self.dict
+            return  CityDataMagager.dict
         }
     }
     
@@ -100,7 +102,7 @@ class CityDataMagager: CityDataProtocols {
             var newListofCIties = [cityInformation]()
             let groupIndex = searchText.prefix(1)
             let key:String = String(groupIndex).uppercased()
-            let SearchList = CityDataMagager.share.dict[key]
+            let SearchList = CityDataMagager.dict[key]
             SearchList?.forEach({ (information) in
                 let maxIndex = information.fullName.endIndex
                 if (searchText.endIndex <= maxIndex) {
@@ -115,31 +117,44 @@ class CityDataMagager: CityDataProtocols {
                 })
             return [key:newListofCIties]
         } else {
-            return self.dict
+            return  CityDataMagager.dict
         }
     }
     
+    func validateLocation(location: CLLocationCoordinate2D) -> Bool {
+        //The latitude must be a number between -90 and 90 and the longitude between -180 and 180.
+        guard (location.latitude > -90) && (location.latitude < 90) else { return false }
+        guard (location.longitude > -180.0) && (location.longitude < 180.0) else { return false }
+        return true
+    }
+    
+    private func validateCityInformation(city:cityData) -> Bool {
+        //validate information roots you can root out bad data
+        guard city.name != nil else { return false}
+        guard city.country != nil else { return false}
+        return true
+    }
     
     func getCityDetailInformation() -> [(info:String,value:String)] {
         var listOfDetails:[(info:String,value:String)] = []
         
-        if let name = currentCitySelected?.name {
+        if let name =  CityDataMagager.currentCitySelected?.name {
             listOfDetails.append(("City Name",name))
         }
         
-        if let country = currentCitySelected?.country {
+        if let country =  CityDataMagager.currentCitySelected?.country {
             listOfDetails.append(("Country",country))
         }
         
-        if let id = currentCitySelected?.id {
+        if let id =  CityDataMagager.currentCitySelected?.id {
             listOfDetails.append(("Location ID","\(id)"))
         }
         
-        if let location = currentCitySelected?.location {
+        if let location =  CityDataMagager.currentCitySelected?.location {
             listOfDetails.append(("Latitude","\(location.latitude)"))
         }
         
-        if let location = currentCitySelected?.location {
+        if let location =  CityDataMagager.currentCitySelected?.location {
             listOfDetails.append(("Longitude","\(location.longitude)"))
         }
         

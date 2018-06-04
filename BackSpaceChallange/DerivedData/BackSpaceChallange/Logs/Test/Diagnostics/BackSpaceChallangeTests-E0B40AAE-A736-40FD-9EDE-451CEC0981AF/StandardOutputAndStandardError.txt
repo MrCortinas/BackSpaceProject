@@ -1,0 +1,11 @@
+Test Suite 'Selected tests' started at 2018-06-03 22:19:09.041
+Test Suite 'BackSpaceChallangeTests.xctest' started at 2018-06-03 22:19:09.042
+Test Suite 'TestNoData' started at 2018-06-03 22:19:09.042
+Test Case '-[BackSpaceChallangeTests.TestNoData testNoDataAvailable]' started.
+Test Case '-[BackSpaceChallangeTests.TestNoData testNoDataAvailable]' passed (24.213 seconds).
+Test Suite 'TestNoData' passed at 2018-06-03 22:19:33.256.
+	 Executed 1 test, with 0 failures (0 unexpected) in 24.213 (24.214) seconds
+Test Suite 'BackSpaceChallangeTests.xctest' passed at 2018-06-03 22:19:33.256.
+	 Executed 1 test, with 0 failures (0 unexpected) in 24.213 (24.215) seconds
+Test Suite 'Selected tests' passed at 2018-06-03 22:19:33.257.
+	 Executed 1 test, with 0 failures (0 unexpected) in 24.213 (24.216) seconds

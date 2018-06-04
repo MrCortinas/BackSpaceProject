@@ -1,0 +1,69 @@
+testy:BackSpaceChallange.HTTPClient
+Test Suite 'All tests' started at 2018-06-03 21:13:16.495
+Test Suite 'BackSpaceChallangeTests.xctest' started at 2018-06-03 21:13:16.497
+Test Suite 'BackSpaceChallangeTests' started at 2018-06-03 21:13:16.497
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testExample]' started.
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testExample]' passed (0.001 seconds).
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testNoDataAvailable]' started.
+testy:BackSpaceChallangeTests.MockClientNodata
+2018-06-03 21:14:20.443789-0400 BackSpaceChallange[69180:3534890] *** Assertion failure in -[BackSpaceChallangeTests.BackSpaceChallangeTests waitForExpectationsWithTimeout:handler:], /Library/Caches/com.apple.xbs/Sources/XCTest_Sim/XCTest-14100/Sources/XCTestFramework/Async/XCTestCase+AsynchronousTesting.m:28
+/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/BackSpaceChallangeTests.swift:101: error: -[BackSpaceChallangeTests.BackSpaceChallangeTests testNoDataAvailable] : failed: caught "NSInternalInconsistencyException", "API violation - call made to wait without any expectations having been set."
+(
+	0   CoreFoundation                      0x000000010609b1e6 __exceptionPreprocess + 294
+	1   libobjc.A.dylib                     0x0000000101ff4031 objc_exception_throw + 48
+	2   CoreFoundation                      0x00000001060a0472 +[NSException raise:format:arguments:] + 98
+	3   Foundation                          0x0000000101a97652 -[NSAssertionHandler handleFailureInMethod:object:file:lineNumber:description:] + 193
+	4   XCTest                              0x00000001190bfad2 -[XCTestCase(AsynchronousTesting) waitForExpectationsWithTimeout:handler:] + 1214
+	5   BackSpaceChallangeTests             0x000000011abd056e _T023BackSpaceChallangeTestsAAC19testNoDataAvailableyyF + 926
+	6   BackSpaceChallangeTests             0x000000011abd09a4 _T023BackSpaceChallangeTestsAAC19testNoDataAvailableyyFTo + 36
+	7   CoreFoundation                      0x000000010601eccc __invoking___ + 140
+	8   CoreFoundation                      0x000000010601eb84 -[NSInvocation invoke] + 308
+	9   XCTest                              0x00000001190d101a __24-[XCTestCase invokeTest]_block_invoke.184 + 74
+	10  XCTest                              0x000000011912bae3 +[XCTestCase(Failures) performFailableBlock:shouldInterruptTest:] + 36
+	11  XCTest                              0x000000011912ba2e -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 54
+	12  XCTest                              0x00000001190d0ce3 __24-[XCTestCase invokeTest]_block_invoke + 847
+	13  XCTest                              0x0000000119130a7d -[XCUITestContext performInScope:] + 248
+	14  XCTest                              0x00000001190d097f -[XCTestCase invokeTest] + 175
+	15  XCTest                              0x00000001190d2555 __26-[XCTestCase performTest:]_block_invoke_2 + 42
+	16  XCTest                              0x000000011912bae3 +[XCTestCase(Failures) performFailableBlock:shouldInterruptTest:] + 36
+	17  XCTest                              0x000000011912ba2e -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 54
+	18  XCTest                              0x00000001190d2402 __26-[XCTestCase performTest:]_block_invoke.318 + 90
+	19  XCTest                              0x0000000119138061 +[XCTContext runInContextForTestCase:block:] + 225
+	20  XCTest                              0x00000001190d1aff -[XCTestCase performTest:] + 673
+	21  XCTest                              0x0000000119114727 -[XCTest runTest] + 57
+	22  XCTest                              0x00000001190cd341 __27-[XCTestSuite performTest:]_block_invoke + 365
+	23  XCTest                              0x00000001190ccb1d -[XCTestSuite _performProtectedSectionForTest:testSection:] + 55
+	24  XCTest                              0x00000001190ccdde -[XCTestSuite performTest:] + 296
+	25  XCTest                              0x0000000119114727 -[XCTest runTest] + 57
+	26  XCTest                              0x00000001190cd341 __27-[XCTestSuite performTest:]_block_invoke + 365
+	27  XCTest                              0x00000001190ccb1d -[XCTestSuite _performProtectedSectionForTest:testSection:] + 55
+	28  XCTest                              0x00000001190ccdde -[XCTestSuite performTest:] + 296
+	29  XCTest                              0x0000000119114727 -[XCTest runTest] + 57
+	30  XCTest                              0x00000001190cd341 __27-[XCTestSuite performTest:]_block_invoke + 365
+	31  XCTest                              0x00000001190ccb1d -[XCTestSuite _performProtectedSectionForTest:testSection:] + 55
+	32  XCTest                              0x00000001190ccdde -[XCTestSuite performTest:] + 296
+	33  XCTest                              0x0000000119114727 -[XCTest runTest] + 57
+	34  XCTest                              0x0000000119141fa6 __44-[XCTTestRunSession runTestsAndReturnError:]_block_invoke + 40
+	35  XCTest                              0x00000001190e5389 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 594
+	36  XCTest                              0x0000000119141db1 -[XCTTestRunSession runTestsAndReturnError:] + 369
+	37  XCTest                              0x00000001190b3c71 -[XCTestDriver runTestsAndReturnError:] + 447
+	38  XCTest                              0x0000000119136bb1 _XCTestMain + 960
+	39  CoreFoundation                      0x000000010603db0c __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 12
+	40  CoreFoundation                      0x00000001060222db __CFRunLoopDoBlocks + 331
+	41  CoreFoundation                      0x0000000106021a84 __CFRunLoopRun + 1284
+	42  CoreFoundation                      0x000000010602130b CFRunLoopRunSpecific + 635
+	43  GraphicsServices                    0x000000010a322a73 GSEventRunModal + 62
+	44  UIKit                               0x0000000102d23057 UIApplicationMain + 159
+	45  BackSpaceChallange                  0x00000001016bb5b7 main + 55
+	46  libdyld.dylib                       0x0000000107274955 start + 1
+)
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testNoDataAvailable]' failed (63.995 seconds).
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testPerformanceExample]' started.
+/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/BackSpaceChallangeTests.swift:88: Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 112.730%, values: [0.000004, 0.000001, 0.000001, 0.000001, 0.000000, 0.000001, 0.000001, 0.000001, 0.000000, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testPerformanceExample]' passed (0.253 seconds).
+Test Suite 'BackSpaceChallangeTests' failed at 2018-06-03 21:14:20.747.
+	 Executed 3 tests, with 1 failure (1 unexpected) in 64.249 (64.250) seconds
+Test Suite 'BackSpaceChallangeTests.xctest' failed at 2018-06-03 21:14:20.748.
+	 Executed 3 tests, with 1 failure (1 unexpected) in 64.249 (64.251) seconds
+Test Suite 'All tests' failed at 2018-06-03 21:14:20.750.
+	 Executed 3 tests, with 1 failure (1 unexpected) in 64.249 (64.255) seconds

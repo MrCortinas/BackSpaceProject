@@ -1,0 +1,12 @@
+Test Suite 'Selected tests' started at 2018-06-03 22:05:37.074
+Test Suite 'BackSpaceChallangeTests.xctest' started at 2018-06-03 22:05:37.075
+Test Suite 'TestNoData' started at 2018-06-03 22:05:37.075
+Test Case '-[BackSpaceChallangeTests.TestNoData testNoDataAvailable]' started.
+/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/TestNoData.swift:38: error: -[BackSpaceChallangeTests.TestNoData testNoDataAvailable] : Asynchronous wait failed: Exceeded timeout of 5 seconds, with unfulfilled expectations: "Download Data".
+Test Case '-[BackSpaceChallangeTests.TestNoData testNoDataAvailable]' failed (10.692 seconds).
+Test Suite 'TestNoData' failed at 2018-06-03 22:05:47.768.
+	 Executed 1 test, with 1 failure (0 unexpected) in 10.692 (10.693) seconds
+Test Suite 'BackSpaceChallangeTests.xctest' failed at 2018-06-03 22:05:47.769.
+	 Executed 1 test, with 1 failure (0 unexpected) in 10.692 (10.694) seconds
+Test Suite 'Selected tests' failed at 2018-06-03 22:05:47.769.
+	 Executed 1 test, with 1 failure (0 unexpected) in 10.692 (10.695) seconds

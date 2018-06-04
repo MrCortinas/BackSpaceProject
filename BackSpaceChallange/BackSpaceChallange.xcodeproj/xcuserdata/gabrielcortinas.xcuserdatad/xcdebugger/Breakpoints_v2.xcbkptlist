@@ -2,4 +2,245 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackSpaceChallange/DataManager/CityDataMagager.swift"
+            timestampString = "549779006.6953861"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "loadData(completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Array&lt;BackSpaceChallange.cityData&gt;&gt;) -&gt; () in closure #1 () -&gt; () in BackSpaceChallange.CityDataMagager.loadData(completionHandler: (Swift.Optional&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BackSpaceChallange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gabrielcortinas/Desktop/Xcode%20Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallange/DataManager/CityDataMagager.swift"
+                  timestampString = "549777187.973169"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Array&lt;BackSpaceChallangeTests.cityData&gt;&gt;) -&gt; () in closure #1 () -&gt; () in BackSpaceChallangeTests.CityDataMagager.loadData(completionHandler: (Swift.Optional&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BackSpaceChallangeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gabrielcortinas/Desktop/Xcode%20Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallange/DataManager/CityDataMagager.swift"
+                  timestampString = "549777189.416996"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackSpaceChallange/DataManager/CityDataMagager.swift"
+            timestampString = "549779006.695878"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "loadData(completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;BackSpaceChallange.cityData&gt;&gt;) -&gt; () in closure #1 () -&gt; () in BackSpaceChallange.CityDataMagager.loadData(completionHandler: (Swift.Optional&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BackSpaceChallange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gabrielcortinas/Desktop/Xcode%20Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallange/DataManager/CityDataMagager.swift"
+                  timestampString = "549777043.50428"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "199">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;BackSpaceChallangeTests.cityData&gt;&gt;) -&gt; () in closure #1 () -&gt; () in BackSpaceChallangeTests.CityDataMagager.loadData(completionHandler: (Swift.Optional&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BackSpaceChallangeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gabrielcortinas/Desktop/Xcode%20Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallange/DataManager/CityDataMagager.swift"
+                  timestampString = "549777045.023679"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "199">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackSpaceChallangeTests/BackSpaceChallangeTests.swift"
+            timestampString = "549779006.696013"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "getMyData(completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackSpaceChallangeTests/TestNoData.swift"
+            timestampString = "549779006.696842"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "testNoDataAvailable()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; () in BackSpaceChallangeTests.TestNoData.testNoDataAvailable() -&gt; ()"
+                  moduleName = "BackSpaceChallangeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gabrielcortinas/Desktop/Xcode%20Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/TestNoData.swift"
+                  timestampString = "549777045.045495"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "82">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 : @autoclosure () throws -&gt; Swift.Optional&lt;Any&gt; in closure #1 (Swift.Optional&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; () in BackSpaceChallangeTests.TestNoData.testNoDataAvailable() -&gt; ()"
+                  moduleName = "BackSpaceChallangeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gabrielcortinas/Desktop/Xcode%20Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/TestNoData.swift"
+                  timestampString = "549777045.047531"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #2 : @autoclosure () -&gt; Swift.String in closure #1 (Swift.Optional&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; () in BackSpaceChallangeTests.TestNoData.testNoDataAvailable() -&gt; ()"
+                  moduleName = "BackSpaceChallangeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gabrielcortinas/Desktop/Xcode%20Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/TestNoData.swift"
+                  timestampString = "549777045.0496"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackSpaceChallangeTests/TestSpecialData.swift"
+            timestampString = "549779006.697052"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "testSpecialCharactewrsAvailable()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackSpaceChallangeTests/TestNoData.swift"
+            timestampString = "549779006.697243"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "testNoDataAvailable()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackSpaceChallangeTests/TestBadData.swift"
+            timestampString = "549779006.697287"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "getMyData(completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackSpaceChallangeTests/BackSpaceChallangeTests.swift"
+            timestampString = "549779006.697473"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "testExample()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

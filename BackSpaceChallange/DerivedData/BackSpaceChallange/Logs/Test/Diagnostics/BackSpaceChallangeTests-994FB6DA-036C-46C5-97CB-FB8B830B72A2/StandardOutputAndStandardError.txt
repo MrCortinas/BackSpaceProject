@@ -1,0 +1,20 @@
+Test Suite 'All tests' started at 2018-06-03 21:44:10.468
+Test Suite 'BackSpaceChallangeTests.xctest' started at 2018-06-03 21:44:10.468
+Test Suite 'BackSpaceChallangeTests' started at 2018-06-03 21:44:10.469
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testExample]' started.
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testExample]' passed (0.001 seconds).
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testPerformanceExample]' started.
+/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/BackSpaceChallangeTests.swift:83: Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 123.558%, values: [0.000003, 0.000001, 0.000001, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testPerformanceExample]' passed (0.280 seconds).
+Test Suite 'BackSpaceChallangeTests' passed at 2018-06-03 21:44:10.750.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.281 (0.282) seconds
+Test Suite 'TestNoData' started at 2018-06-03 21:44:10.751
+Test Case '-[BackSpaceChallangeTests.TestNoData testNoDataAvailable]' started.
+/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/TestNoData.swift:40: error: -[BackSpaceChallangeTests.TestNoData testNoDataAvailable] : Asynchronous wait failed: Exceeded timeout of 5 seconds, with unfulfilled expectations: "Download Data".
+Test Case '-[BackSpaceChallangeTests.TestNoData testNoDataAvailable]' failed (21.552 seconds).
+Test Suite 'TestNoData' failed at 2018-06-03 21:44:32.303.
+	 Executed 1 test, with 1 failure (0 unexpected) in 21.552 (21.553) seconds
+Test Suite 'BackSpaceChallangeTests.xctest' failed at 2018-06-03 21:44:32.304.
+	 Executed 3 tests, with 1 failure (0 unexpected) in 21.833 (21.836) seconds
+Test Suite 'All tests' failed at 2018-06-03 21:44:32.306.
+	 Executed 3 tests, with 1 failure (0 unexpected) in 21.833 (21.839) seconds

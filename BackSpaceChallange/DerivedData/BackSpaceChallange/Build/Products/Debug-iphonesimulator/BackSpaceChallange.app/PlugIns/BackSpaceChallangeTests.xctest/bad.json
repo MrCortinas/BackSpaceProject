@@ -1,0 +1,12 @@
+[
+  {"country":"XX","name":"test1","_id":"m","coord":{"lon":34.283333,"lat":44.549999}},
+  {"country":"XX","name":"test2","_id":2.0,"coord":{"lon":37.666668,"lat":55.683334}},
+  {"country":3,"name":"test3","_id":3,"coord":{"lon":84.633331,"lat":28}},
+  {"country":"XX","name":4,"_id":4,"coord":{"lon":76,"lat":29}},
+  {"country":"XX","name":"test5","_id":5,"coord":{"lon":33900002,"lat":44599998}},
+  {"country":"XX","name":"test6","_id":6,"coord":{"lon":666,"lat":28}},
+  {"country":"XX","name":"test7","_id":7,"coord":{"lon":37.611111,"lat":391}},
+  {"country":"XX","name":"test8","_id":8,"coord":0},
+  {"country":"XX","name":"test9","id":9,"coord":{"lon":"85.316666","lat":"27.716667"}},
+  {"countr":"XX","Name":"test10","_iD":10,"Coord":{"Lon":"33","Lat":"44"}}
+]

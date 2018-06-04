@@ -1,0 +1,6 @@
+testy:BackSpaceChallange.HTTPClient
+Test Suite 'Selected tests' started at 2018-06-03 21:23:06.935
+Test Suite 'BackSpaceChallangeTests.xctest' started at 2018-06-03 21:23:06.935
+Test Suite 'BackSpaceChallangeTests' started at 2018-06-03 21:23:06.936
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testNoDataAvailable]' started.
+testy:BackSpaceChallangeTests.MockClientNodata

@@ -14,23 +14,29 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "!"
+- !private "!="
+- !private "&&"
 - !private "<"
 - !private "<="
+- !private ">"
 - !private "??"
 - "Array"
 - "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
 - "CLLocationCoordinate2D"
 - "CityDataMagager"
 - "CityDataProtocols"
 - "Dictionary"
 - !private "DispatchQueue"
-- !private "HTTPClient"
+- "HTTPClient"
 - "Int"
 - "String"
 - !private "StringLiteralType"
 - "Void"
 - "cityData"
 - "cityInformation"
+- "httpProtocols"
 - !private "print"
 depends-member:
 - !private ["Sa", "append"]
@@ -72,44 +78,53 @@ depends-member:
 - !private ["s7CVarArgP", "updateValue"]
 - !private ["s7CVarArgP", "uppercased"]
 - ["18BackSpaceChallange15CityDataMagagerC", "Array"]
-- ["18BackSpaceChallange15CityDataMagagerC", "CityDataMagager"]
+- ["18BackSpaceChallange15CityDataMagagerC", "Bool"]
+- ["18BackSpaceChallange15CityDataMagagerC", "CLLocationCoordinate2D"]
+- !private ["18BackSpaceChallange15CityDataMagagerC", "CityDataMagager"]
 - ["18BackSpaceChallange15CityDataMagagerC", "Dictionary"]
 - !private ["18BackSpaceChallange15CityDataMagagerC", "DispatchQueue"]
-- !private ["18BackSpaceChallange15CityDataMagagerC", "HTTPClient"]
+- ["18BackSpaceChallange15CityDataMagagerC", "HTTPClient"]
 - ["18BackSpaceChallange15CityDataMagagerC", "String"]
 - ["18BackSpaceChallange15CityDataMagagerC", "Void"]
+- ["18BackSpaceChallange15CityDataMagagerC", "cityData"]
 - ["18BackSpaceChallange15CityDataMagagerC", "cityInformation"]
+- ["18BackSpaceChallange15CityDataMagagerC", "client"]
 - ["18BackSpaceChallange15CityDataMagagerC", "currentCitySelected"]
 - ["18BackSpaceChallange15CityDataMagagerC", "deinit"]
 - ["18BackSpaceChallange15CityDataMagagerC", "dict"]
 - ["18BackSpaceChallange15CityDataMagagerC", "getCityDetailInformation"]
 - ["18BackSpaceChallange15CityDataMagagerC", "getFilterMethodAlternative"]
 - ["18BackSpaceChallange15CityDataMagagerC", "getFilterResult"]
+- ["18BackSpaceChallange15CityDataMagagerC", "httpProtocols"]
 - ["18BackSpaceChallange15CityDataMagagerC", "init"]
 - ["18BackSpaceChallange15CityDataMagagerC", "loadData"]
 - !private ["18BackSpaceChallange15CityDataMagagerC", "print"]
-- ["18BackSpaceChallange15CityDataMagagerC", "share"]
 - !private ["18BackSpaceChallange15CityDataMagagerC", "sortCities"]
 - !private ["18BackSpaceChallange15CityDataMagagerC", "sortCityGroups"]
-- ["18BackSpaceChallange17CityDataProtocolsP", "CityDataMagager"]
+- !private ["18BackSpaceChallange15CityDataMagagerC", "validateCityInformation"]
+- ["18BackSpaceChallange15CityDataMagagerC", "validateLocation"]
+- ["18BackSpaceChallange17CityDataProtocolsP", "Bool"]
+- ["18BackSpaceChallange17CityDataProtocolsP", "CLLocationCoordinate2D"]
+- !private ["18BackSpaceChallange17CityDataProtocolsP", "CityDataMagager"]
 - ["18BackSpaceChallange17CityDataProtocolsP", "Dictionary"]
 - !private ["18BackSpaceChallange17CityDataProtocolsP", "DispatchQueue"]
-- !private ["18BackSpaceChallange17CityDataProtocolsP", "HTTPClient"]
+- ["18BackSpaceChallange17CityDataProtocolsP", "HTTPClient"]
 - ["18BackSpaceChallange17CityDataProtocolsP", "String"]
 - ["18BackSpaceChallange17CityDataProtocolsP", "Void"]
 - ["18BackSpaceChallange17CityDataProtocolsP", ""]
 - ["18BackSpaceChallange17CityDataProtocolsP", "cityInformation"]
+- !private ["18BackSpaceChallange17CityDataProtocolsP", "client"]
 - !private ["18BackSpaceChallange17CityDataProtocolsP", "currentCitySelected"]
 - !private ["18BackSpaceChallange17CityDataProtocolsP", "dict"]
 - ["18BackSpaceChallange17CityDataProtocolsP", "getCityDetailInformation"]
 - ["18BackSpaceChallange17CityDataProtocolsP", "getFilterMethodAlternative"]
 - ["18BackSpaceChallange17CityDataProtocolsP", "getFilterResult"]
-- ["18BackSpaceChallange17CityDataProtocolsP", "init"]
 - ["18BackSpaceChallange17CityDataProtocolsP", "loadData"]
 - !private ["18BackSpaceChallange17CityDataProtocolsP", "print"]
-- !private ["18BackSpaceChallange17CityDataProtocolsP", "share"]
 - !private ["18BackSpaceChallange17CityDataProtocolsP", "sortCities"]
 - !private ["18BackSpaceChallange17CityDataProtocolsP", "sortCityGroups"]
+- !private ["18BackSpaceChallange17CityDataProtocolsP", "validateCityInformation"]
+- ["18BackSpaceChallange17CityDataProtocolsP", "validateLocation"]
 - !private ["s10CollectionP", "append"]
 - !private ["s10CollectionP", "contains"]
 - !private ["s10CollectionP", "endIndex"]
@@ -295,9 +310,8 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "prefix"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "starts"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "uppercased"]
-- !private ["18BackSpaceChallange10HTTPClientC", "deinit"]
-- !private ["18BackSpaceChallange10HTTPClientC", "getMyData"]
-- !private ["18BackSpaceChallange10HTTPClientC", "init"]
+- ["18BackSpaceChallange10HTTPClientC", "deinit"]
+- ["18BackSpaceChallange10HTTPClientC", "init"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "async"]
 - !private ["s8HashableP", "contains"]
@@ -556,7 +570,7 @@ depends-member:
 - !private ["18BackSpaceChallange5coordV", "lat"]
 - !private ["18BackSpaceChallange5coordV", "lon"]
 - !private ["18BackSpaceChallange13httpProtocolsP", "getMyData"]
-- !private ["18BackSpaceChallange13httpProtocolsP", "init"]
+- ["18BackSpaceChallange13httpProtocolsP", "init"]
 depends-nominal:
 - !private "Sa"
 - !private "s23BidirectionalCollectionP"
@@ -583,7 +597,7 @@ depends-nominal:
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "18BackSpaceChallange10HTTPClientC"
+- "18BackSpaceChallange10HTTPClientC"
 - !private "s8HashableP"
 - !private "s10DictionaryV4KeysV"
 - !private "s25LosslessStringConvertibleP"
@@ -622,7 +636,7 @@ depends-nominal:
 - !private "18BackSpaceChallange8cityDataV"
 - "18BackSpaceChallange15cityInformationV"
 - !private "18BackSpaceChallange5coordV"
-- !private "18BackSpaceChallange13httpProtocolsP"
+- "18BackSpaceChallange13httpProtocolsP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -652,4 +666,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "85ad4f95ec8e327cf61e2c4f6b04ff3f"
+interface-hash: "2b949afded59e171fed32bd16fe80219"

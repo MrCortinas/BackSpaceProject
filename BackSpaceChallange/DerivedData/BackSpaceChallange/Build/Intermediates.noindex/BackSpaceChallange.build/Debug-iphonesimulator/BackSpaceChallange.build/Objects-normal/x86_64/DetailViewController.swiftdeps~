@@ -39,6 +39,7 @@ depends-member:
 - !private ["s23BidirectionalCollectionP", "init"]
 - !private ["s23BidirectionalCollectionP", "item"]
 - !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "addAnnotation"]
 - !private ["So15CALayerDelegateP", "detailTextLabel"]
 - !private ["So15CALayerDelegateP", "init"]
@@ -53,7 +54,9 @@ depends-member:
 - !private ["s7CVarArgP", "MKPointAnnotation"]
 - !private ["s7CVarArgP", "UITableViewCell"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "addAnnotation"]
+- !private ["s7CVarArgP", "cityDataMagager"]
 - !private ["s7CVarArgP", "coordinate"]
 - !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "detailTextLabel"]
@@ -99,12 +102,14 @@ depends-member:
 - ["s7CVarArgP", "viewForZooming"]
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
 - !private ["18BackSpaceChallange15CityDataMagagerC", "currentCitySelected"]
-- ["18BackSpaceChallange15CityDataMagagerC", "deinit"]
-- ["18BackSpaceChallange15CityDataMagagerC", "getCityDetailInformation"]
-- ["18BackSpaceChallange15CityDataMagagerC", "share"]
+- !private ["18BackSpaceChallange15CityDataMagagerC", "deinit"]
+- !private ["18BackSpaceChallange15CityDataMagagerC", "getCityDetailInformation"]
+- ["18BackSpaceChallange15CityDataMagagerC", "init"]
+- !private ["18BackSpaceChallange15CityDataMagagerC", "validateLocation"]
 - !private ["18BackSpaceChallange17CityDataProtocolsP", "currentCitySelected"]
-- ["18BackSpaceChallange17CityDataProtocolsP", "getCityDetailInformation"]
-- ["18BackSpaceChallange17CityDataProtocolsP", "share"]
+- !private ["18BackSpaceChallange17CityDataProtocolsP", "getCityDetailInformation"]
+- ["18BackSpaceChallange17CityDataProtocolsP", "init"]
+- !private ["18BackSpaceChallange17CityDataProtocolsP", "validateLocation"]
 - !private ["s10CollectionP", "count"]
 - !private ["s10CollectionP", "init"]
 - !private ["s10CollectionP", "item"]
@@ -119,6 +124,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "UITableViewCell"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "addAnnotation"]
+- !private ["s28CustomDebugStringConvertibleP", "cityDataMagager"]
 - !private ["s28CustomDebugStringConvertibleP", "coordinate"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "detailTextLabel"]
@@ -164,7 +170,9 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", "viewForZooming"]
 - ["s28CustomDebugStringConvertibleP", "viewForZoomingInScrollView"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "count"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "item"]
@@ -176,7 +184,9 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "MKPointAnnotation"]
 - !private ["s23CustomStringConvertibleP", "UITableViewCell"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "addAnnotation"]
+- !private ["s23CustomStringConvertibleP", "cityDataMagager"]
 - !private ["s23CustomStringConvertibleP", "coordinate"]
 - !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "detailTextLabel"]
@@ -222,6 +232,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", "viewForZooming"]
 - ["s23CustomStringConvertibleP", "viewForZoomingInScrollView"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "count"]
 - !private ["s9DecodableP", "init"]
 - !private ["s9DecodableP", "item"]
@@ -237,6 +248,7 @@ depends-member:
 - ["18BackSpaceChallange20DetailViewControllerC", "String"]
 - ["18BackSpaceChallange20DetailViewControllerC", "UITableView"]
 - ["18BackSpaceChallange20DetailViewControllerC", "UITableViewCell"]
+- ["18BackSpaceChallange20DetailViewControllerC", "cityDataMagager"]
 - ["18BackSpaceChallange20DetailViewControllerC", "deinit"]
 - ["18BackSpaceChallange20DetailViewControllerC", "didReceiveMemoryWarning"]
 - ["18BackSpaceChallange20DetailViewControllerC", "indexPathForPreferredFocusedView"]
@@ -272,6 +284,7 @@ depends-member:
 - ["18BackSpaceChallange20DetailViewControllerC", "viewDidLoad"]
 - ["18BackSpaceChallange20DetailViewControllerC", "viewForZooming"]
 - ["18BackSpaceChallange20DetailViewControllerC", "viewForZoomingInScrollView"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "count"]
 - !private ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "item"]
@@ -283,7 +296,9 @@ depends-member:
 - !private ["s9EquatableP", "MKPointAnnotation"]
 - !private ["s9EquatableP", "UITableViewCell"]
 - ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "addAnnotation"]
+- !private ["s9EquatableP", "cityDataMagager"]
 - !private ["s9EquatableP", "coordinate"]
 - !private ["s9EquatableP", "count"]
 - !private ["s9EquatableP", "detailTextLabel"]
@@ -334,6 +349,7 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "item"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
@@ -344,7 +360,9 @@ depends-member:
 - !private ["s8HashableP", "MKPointAnnotation"]
 - !private ["s8HashableP", "UITableViewCell"]
 - ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "addAnnotation"]
+- !private ["s8HashableP", "cityDataMagager"]
 - !private ["s8HashableP", "coordinate"]
 - !private ["s8HashableP", "detailTextLabel"]
 - !private ["s8HashableP", "didReceiveMemoryWarning"]
@@ -391,6 +409,7 @@ depends-member:
 - ["s8HashableP", "viewForZooming"]
 - ["s8HashableP", "viewForZoomingInScrollView"]
 - !private ["10Foundation9IndexPathV", "item"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["So12MKAnnotationP", "coordinate"]
 - !private ["So12MKAnnotationP", "init"]
@@ -407,6 +426,7 @@ depends-member:
 - !private ["So17MKMapViewDelegateP", "MKPointAnnotation"]
 - !private ["So17MKMapViewDelegateP", "UITableViewCell"]
 - ["So17MKMapViewDelegateP", ""]
+- !private ["So17MKMapViewDelegateP", "cityDataMagager"]
 - ["So17MKMapViewDelegateP", "indexPathForPreferredFocusedView"]
 - ["So17MKMapViewDelegateP", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["So17MKMapViewDelegateP", "itemToShow"]
@@ -458,6 +478,7 @@ depends-member:
 - !private ["So8NSCodingP", "UITableViewCell"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "addAnnotation"]
+- !private ["So8NSCodingP", "cityDataMagager"]
 - !private ["So8NSCodingP", "detailTextLabel"]
 - !private ["So8NSCodingP", "didReceiveMemoryWarning"]
 - ["So8NSCodingP", "indexPathForPreferredFocusedView"]
@@ -504,6 +525,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "MKPointAnnotation"]
 - !private ["So26NSExtensionRequestHandlingP", "UITableViewCell"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "cityDataMagager"]
 - !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
 - ["So26NSExtensionRequestHandlingP", "indexPathForPreferredFocusedView"]
 - ["So26NSExtensionRequestHandlingP", "indexPathForPreferredFocusedViewInTableView"]
@@ -550,6 +572,7 @@ depends-member:
 - ["So8NSObjectC", "UITableView"]
 - ["So8NSObjectC", "UITableViewCell"]
 - !private ["So8NSObjectC", "addAnnotation"]
+- ["So8NSObjectC", "cityDataMagager"]
 - !private ["So8NSObjectC", "coordinate"]
 - !private ["So8NSObjectC", "detailTextLabel"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
@@ -600,6 +623,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "UITableViewCell"]
 - ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "addAnnotation"]
+- !private ["So16NSObjectProtocolP", "cityDataMagager"]
 - !private ["So16NSObjectProtocolP", "coordinate"]
 - !private ["So16NSObjectProtocolP", "detailTextLabel"]
 - !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
@@ -681,6 +705,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "UITableViewCell"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "addAnnotation"]
+- !private ["So21UIAppearanceContainerP", "cityDataMagager"]
 - !private ["So21UIAppearanceContainerP", "detailTextLabel"]
 - !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
 - ["So21UIAppearanceContainerP", "indexPathForPreferredFocusedView"]
@@ -727,6 +752,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "MKPointAnnotation"]
 - !private ["So18UIContentContainerP", "UITableViewCell"]
 - ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "cityDataMagager"]
 - !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
 - ["So18UIContentContainerP", "indexPathForPreferredFocusedView"]
 - ["So18UIContentContainerP", "indexPathForPreferredFocusedViewInTableView"]
@@ -784,6 +810,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "UITableViewCell"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "addAnnotation"]
+- !private ["So18UIFocusEnvironmentP", "cityDataMagager"]
 - !private ["So18UIFocusEnvironmentP", "detailTextLabel"]
 - !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
 - ["So18UIFocusEnvironmentP", "indexPathForPreferredFocusedView"]
@@ -842,6 +869,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "UITableViewCell"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "addAnnotation"]
+- !private ["So30UIPasteConfigurationSupportingP", "cityDataMagager"]
 - !private ["So30UIPasteConfigurationSupportingP", "detailTextLabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
 - ["So30UIPasteConfigurationSupportingP", "indexPathForPreferredFocusedView"]
@@ -893,6 +921,7 @@ depends-member:
 - ["So11UIResponderC", "UITableView"]
 - ["So11UIResponderC", "UITableViewCell"]
 - !private ["So11UIResponderC", "addAnnotation"]
+- ["So11UIResponderC", "cityDataMagager"]
 - !private ["So11UIResponderC", "detailTextLabel"]
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
 - ["So11UIResponderC", "indexPathForPreferredFocusedView"]
@@ -940,6 +969,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "UITableViewCell"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "addAnnotation"]
+- !private ["So30UIResponderStandardEditActionsP", "cityDataMagager"]
 - !private ["So30UIResponderStandardEditActionsP", "detailTextLabel"]
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
 - ["So30UIResponderStandardEditActionsP", "indexPathForPreferredFocusedView"]
@@ -986,6 +1016,7 @@ depends-member:
 - !private ["So20UIScrollViewDelegateP", "MKPointAnnotation"]
 - !private ["So20UIScrollViewDelegateP", "UITableViewCell"]
 - ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "cityDataMagager"]
 - ["So20UIScrollViewDelegateP", "indexPathForPreferredFocusedView"]
 - ["So20UIScrollViewDelegateP", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["So20UIScrollViewDelegateP", "itemToShow"]
@@ -1024,6 +1055,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "MKPointAnnotation"]
 - !private ["So16UIStateRestoringP", "UITableViewCell"]
 - ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "cityDataMagager"]
 - !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
 - ["So16UIStateRestoringP", "indexPathForPreferredFocusedView"]
 - ["So16UIStateRestoringP", "indexPathForPreferredFocusedViewInTableView"]
@@ -1069,6 +1101,7 @@ depends-member:
 - !private ["So21UITableViewDataSourceP", "MKPointAnnotation"]
 - !private ["So21UITableViewDataSourceP", "UITableViewCell"]
 - ["So21UITableViewDataSourceP", ""]
+- !private ["So21UITableViewDataSourceP", "cityDataMagager"]
 - ["So21UITableViewDataSourceP", "indexPathForPreferredFocusedView"]
 - ["So21UITableViewDataSourceP", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["So21UITableViewDataSourceP", "itemToShow"]
@@ -1107,6 +1140,7 @@ depends-member:
 - !private ["So19UITableViewDelegateP", "MKPointAnnotation"]
 - !private ["So19UITableViewDelegateP", "UITableViewCell"]
 - ["So19UITableViewDelegateP", ""]
+- !private ["So19UITableViewDelegateP", "cityDataMagager"]
 - ["So19UITableViewDelegateP", "indexPathForPreferredFocusedView"]
 - ["So19UITableViewDelegateP", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["So19UITableViewDelegateP", "itemToShow"]
@@ -1146,6 +1180,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "UITableViewCell"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "addAnnotation"]
+- !private ["So18UITraitEnvironmentP", "cityDataMagager"]
 - !private ["So18UITraitEnvironmentP", "detailTextLabel"]
 - !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
 - ["So18UITraitEnvironmentP", "indexPathForPreferredFocusedView"]
@@ -1204,6 +1239,7 @@ depends-member:
 - ["So16UIViewControllerC", "UITableView"]
 - ["So16UIViewControllerC", "UITableViewCell"]
 - ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "cityDataMagager"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
 - ["So16UIViewControllerC", "indexPathForPreferredFocusedView"]
 - ["So16UIViewControllerC", "indexPathForPreferredFocusedViewInTableView"]
@@ -1249,6 +1285,7 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textLabel"]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
@@ -1262,6 +1299,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UITableViewCell"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addAnnotation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cityDataMagager"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "detailTextLabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
@@ -1304,6 +1342,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZooming"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZoomingInScrollView"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "item"]
@@ -1315,6 +1354,7 @@ depends-member:
 depends-nominal:
 - !private "Sa"
 - !private "s23BidirectionalCollectionP"
+- !private "Sb"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - "18BackSpaceChallange15CityDataMagagerC"
@@ -1330,6 +1370,7 @@ depends-nominal:
 - !private "s9EncodableP"
 - "s9EquatableP"
 - !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
@@ -1383,6 +1424,7 @@ depends-nominal:
 - !private "s14_ArrayProtocolP"
 - !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
@@ -1421,4 +1463,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "5c9976bd42b711936e9766c1864c8599"
+interface-hash: "24f885eb37e69e43443f5a00c95ddfa7"

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.2</string>
+	<key>RunDestination</key>
+	<dict>
+		<key>LocalComputer</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>100</integer>
+			<key>CPUCount</key>
+			<integer>1</integer>
+			<key>CPUKind</key>
+			<string>Intel Core i5</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2300</integer>
+			<key>Identifier</key>
+			<string>DA814C95-83E4-537F-B147-921BE1252818</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>4</integer>
+			<key>ModelCode</key>
+			<string>MacBookPro14,1</string>
+			<key>ModelName</key>
+			<string>MacBook Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macbookpro-13-retina-usbc-2017</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64h</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.13.4</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.13.4 (17E202)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>2</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>macOS</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>8192</integer>
+		</dict>
+		<key>Name</key>
+		<string>iPhone 8 Plus</string>
+		<key>TargetArchitecture</key>
+		<string>x86_64</string>
+		<key>TargetDevice</key>
+		<dict>
+			<key>Identifier</key>
+			<string>C88FBC94-57B3-44EE-AB8B-F335396179AA</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>ModelCode</key>
+			<string>iPhone10,5</string>
+			<key>ModelName</key>
+			<string>iPhone 8 Plus</string>
+			<key>ModelUTI</key>
+			<string>com.apple.iphone-8-plus-2</string>
+			<key>Name</key>
+			<string>iPhone 8 Plus</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64</string>
+			<key>OperatingSystemVersion</key>
+			<string>11.4</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>11.4 (15F79)</string>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.iphonesimulator</string>
+				<key>Name</key>
+				<string>iOS Simulator</string>
+			</dict>
+		</dict>
+		<key>TargetSDK</key>
+		<dict>
+			<key>Identifier</key>
+			<string>iphonesimulator11.4</string>
+			<key>IsInternal</key>
+			<false/>
+			<key>Name</key>
+			<string>Simulator - iOS 11.4</string>
+			<key>OperatingSystemVersion</key>
+			<string>11.4</string>
+		</dict>
+	</dict>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>DiagnosticsDirectory</key>
+			<string>BackSpaceChallangeTests-52291DA0-27D6-4CE3-B4D8-92D1EB1FEBA5</string>
+			<key>ProjectPath</key>
+			<string>BackSpaceChallange.xcodeproj</string>
+			<key>TargetName</key>
+			<string>BackSpaceChallangeTests</string>
+			<key>TestName</key>
+			<string>BackSpaceChallangeTests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Duration</key>
+					<real>89.468158006668091</real>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Duration</key>
+							<real>89.466671109199524</real>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>Duration</key>
+									<real>89.465675950050354</real>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>ActivitySummaries</key>
+											<array>
+												<dict>
+													<key>ActivityType</key>
+													<string>com.apple.dt.xctest.activity-type.testAssertionFailure</string>
+													<key>FinishTimeInterval</key>
+													<real>549771759.38250697</real>
+													<key>StartTimeInterval</key>
+													<real>549771759.38192403</real>
+													<key>Title</key>
+													<string>Assertion Failure: TestNoData.swift:36: Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "Download Data".</string>
+													<key>UUID</key>
+													<string>F1EB7567-8F93-4766-9F04-2F83F0AD2A13</string>
+												</dict>
+											</array>
+											<key>Duration</key>
+											<real>89.464886069297791</real>
+											<key>FailureSummaries</key>
+											<array>
+												<dict>
+													<key>FileName</key>
+													<string>/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/TestNoData.swift</string>
+													<key>LineNumber</key>
+													<integer>36</integer>
+													<key>Message</key>
+													<string>Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "Download Data".</string>
+													<key>PerformanceFailure</key>
+													<false/>
+												</dict>
+											</array>
+											<key>TestIdentifier</key>
+											<string>TestNoData/testNoDataAvailable()</string>
+											<key>TestName</key>
+											<string>testNoDataAvailable()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Failure</string>
+											<key>TestSummaryGUID</key>
+											<string>E686D991-34DA-4113-9D56-13AF6C0A48C1</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>TestNoData</string>
+									<key>TestName</key>
+									<string>TestNoData</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>BackSpaceChallangeTests.xctest</string>
+							<key>TestName</key>
+							<string>BackSpaceChallangeTests.xctest</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>Selected tests</string>
+					<key>TestName</key>
+					<string>Selected tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+Test Suite 'Selected tests' started at 2018-06-04 00:15:07.821
+Test Suite 'BackSpaceChallangeTests.xctest' started at 2018-06-04 00:15:07.824
+Test Suite 'BackSpaceChallangeTests' started at 2018-06-04 00:15:07.825
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testExample]' started.
+/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/BackSpaceChallangeTests.swift:52: error: -[BackSpaceChallangeTests.BackSpaceChallangeTests testExample] : XCTAssertNil failed: "["A", "B", "C", "D", "E", "F", "G", "X", "Y", "Z"]" - there no data
+/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/BackSpaceChallangeTests.swift:57: error: -[BackSpaceChallangeTests.BackSpaceChallangeTests testExample] : XCTAssertNil failed: "(key: "X", value: [BackSpaceChallangeTests.cityInformation(fullName: "Xtest, XX", country: "XX", name: "Xtest", id: 8, location: __C.CLLocationCoordinate2D(latitude: 20.0, longitude: 77.0))])" - no info available

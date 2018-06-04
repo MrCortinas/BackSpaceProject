@@ -1,0 +1,17 @@
+Test Suite 'All tests' started at 2018-06-03 20:55:47.571
+Test Suite 'BackSpaceChallangeTests.xctest' started at 2018-06-03 20:55:47.574
+Test Suite 'BackSpaceChallangeTests' started at 2018-06-03 20:55:47.574
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testExample]' started.
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testExample]' passed (0.001 seconds).
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testNoDataAvailable]' started.
+/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/BackSpaceChallangeTests.swift:101: error: -[BackSpaceChallangeTests.BackSpaceChallangeTests testNoDataAvailable] : Asynchronous wait failed: Exceeded timeout of 1 seconds, with unfulfilled expectations: "Download Data".
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testNoDataAvailable]' failed (1.183 seconds).
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testPerformanceExample]' started.
+/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/BackSpaceChallangeTests.swift:88: Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 121.762%, values: [0.000004, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000000, 0.000000], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testPerformanceExample]' passed (0.254 seconds).
+Test Suite 'BackSpaceChallangeTests' failed at 2018-06-03 20:55:49.013.
+	 Executed 3 tests, with 1 failure (0 unexpected) in 1.438 (1.439) seconds
+Test Suite 'BackSpaceChallangeTests.xctest' failed at 2018-06-03 20:55:49.014.
+	 Executed 3 tests, with 1 failure (0 unexpected) in 1.438 (1.440) seconds
+Test Suite 'All tests' failed at 2018-06-03 20:55:49.015.
+	 Executed 3 tests, with 1 failure (0 unexpected) in 1.438 (1.443) seconds

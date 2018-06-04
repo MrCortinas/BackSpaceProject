@@ -1,0 +1,11 @@
+Test Suite 'Selected tests' started at 2018-06-04 00:23:29.860
+Test Suite 'BackSpaceChallangeTests.xctest' started at 2018-06-04 00:23:29.860
+Test Suite 'BackSpaceChallangeTests' started at 2018-06-04 00:23:29.861
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testExample]' started.
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testExample]' passed (13.176 seconds).
+Test Suite 'BackSpaceChallangeTests' passed at 2018-06-04 00:23:43.038.
+	 Executed 1 test, with 0 failures (0 unexpected) in 13.176 (13.178) seconds
+Test Suite 'BackSpaceChallangeTests.xctest' passed at 2018-06-04 00:23:43.039.
+	 Executed 1 test, with 0 failures (0 unexpected) in 13.176 (13.179) seconds
+Test Suite 'Selected tests' passed at 2018-06-04 00:23:43.040.
+	 Executed 1 test, with 0 failures (0 unexpected) in 13.176 (13.180) seconds

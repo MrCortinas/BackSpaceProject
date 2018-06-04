@@ -16,12 +16,15 @@
 		E095930720C1FB5C00D548C2 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E095930620C1FB5C00D548C2 /* HTTPClient.swift */; };
 		E095930820C1FB5C00D548C2 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E095930620C1FB5C00D548C2 /* HTTPClient.swift */; };
 		E095930A20C1FDAC00D548C2 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = E095930920C1FDAC00D548C2 /* cities.json */; };
-		E095930B20C1FDAC00D548C2 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = E095930920C1FDAC00D548C2 /* cities.json */; };
 		E095930F20C2129700D548C2 /* CityDataMagager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E095930E20C2129700D548C2 /* CityDataMagager.swift */; };
-		E095931020C2129700D548C2 /* CityDataMagager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E095930E20C2129700D548C2 /* CityDataMagager.swift */; };
 		E095931320C39A0F00D548C2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E095931220C39A0F00D548C2 /* DetailViewController.swift */; };
-		E095931420C39A0F00D548C2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E095931220C39A0F00D548C2 /* DetailViewController.swift */; };
-		E095931520C3B50B00D548C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09592E820C1F53E00D548C2 /* ViewController.swift */; };
+		E095931720C4BA7000D548C2 /* bad.json in Resources */ = {isa = PBXBuildFile; fileRef = E095931620C4BA7000D548C2 /* bad.json */; };
+		E095931A20C4BAD900D548C2 /* special.json in Resources */ = {isa = PBXBuildFile; fileRef = E095931820C4BAD800D548C2 /* special.json */; };
+		E095931B20C4BAD900D548C2 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = E095931920C4BAD800D548C2 /* test.json */; };
+		E095931D20C4CE6600D548C2 /* TestNoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E095931C20C4CE6600D548C2 /* TestNoData.swift */; };
+		E095931F20C4D8D200D548C2 /* CityDataMagager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E095930E20C2129700D548C2 /* CityDataMagager.swift */; };
+		E095932120C4DA7A00D548C2 /* TestSpecialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E095932020C4DA7A00D548C2 /* TestSpecialData.swift */; };
+		E095932320C4DB1300D548C2 /* TestBadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E095932220C4DB1300D548C2 /* TestBadData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,12 @@
 		E095930920C1FDAC00D548C2 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
 		E095930E20C2129700D548C2 /* CityDataMagager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDataMagager.swift; sourceTree = "<group>"; };
 		E095931220C39A0F00D548C2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E095931620C4BA7000D548C2 /* bad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bad.json; sourceTree = "<group>"; };
+		E095931820C4BAD800D548C2 /* special.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = special.json; sourceTree = "<group>"; };
+		E095931920C4BAD800D548C2 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		E095931C20C4CE6600D548C2 /* TestNoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNoData.swift; sourceTree = "<group>"; };
+		E095932020C4DA7A00D548C2 /* TestSpecialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSpecialData.swift; sourceTree = "<group>"; };
+		E095932220C4DB1300D548C2 /* TestBadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBadData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +113,14 @@
 		E09592FA20C1F53F00D548C2 /* BackSpaceChallangeTests */ = {
 			isa = PBXGroup;
 			children = (
+				E095931820C4BAD800D548C2 /* special.json */,
+				E095931920C4BAD800D548C2 /* test.json */,
+				E095931620C4BA7000D548C2 /* bad.json */,
 				E09592FB20C1F53F00D548C2 /* BackSpaceChallangeTests.swift */,
 				E09592FD20C1F53F00D548C2 /* Info.plist */,
+				E095931C20C4CE6600D548C2 /* TestNoData.swift */,
+				E095932020C4DA7A00D548C2 /* TestSpecialData.swift */,
+				E095932220C4DB1300D548C2 /* TestBadData.swift */,
 			);
 			path = BackSpaceChallangeTests;
 			sourceTree = "<group>";
@@ -229,7 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E095930B20C1FDAC00D548C2 /* cities.json in Resources */,
+				E095931B20C4BAD900D548C2 /* test.json in Resources */,
+				E095931A20C4BAD900D548C2 /* special.json in Resources */,
+				E095931720C4BA7000D548C2 /* bad.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,11 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E095931520C3B50B00D548C2 /* ViewController.swift in Sources */,
+				E095932120C4DA7A00D548C2 /* TestSpecialData.swift in Sources */,
 				E095930820C1FB5C00D548C2 /* HTTPClient.swift in Sources */,
 				E09592FC20C1F53F00D548C2 /* BackSpaceChallangeTests.swift in Sources */,
-				E095931020C2129700D548C2 /* CityDataMagager.swift in Sources */,
-				E095931420C39A0F00D548C2 /* DetailViewController.swift in Sources */,
+				E095931D20C4CE6600D548C2 /* TestNoData.swift in Sources */,
+				E095931F20C4D8D200D548C2 /* CityDataMagager.swift in Sources */,
+				E095932320C4DB1300D548C2 /* TestBadData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

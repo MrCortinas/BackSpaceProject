@@ -1,0 +1,6 @@
+Test Suite 'All tests' started at 2018-06-03 20:59:22.899
+Test Suite 'BackSpaceChallangeTests.xctest' started at 2018-06-03 20:59:22.901
+Test Suite 'BackSpaceChallangeTests' started at 2018-06-03 20:59:22.902
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testExample]' started.
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testExample]' passed (0.003 seconds).
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testNoDataAvailable]' started.

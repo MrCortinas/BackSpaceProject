@@ -1,0 +1,417 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MockClientBadData"
+- "TestBadData"
+provides-nominal:
+- "23BackSpaceChallangeTests17MockClientBadDataC"
+- "23BackSpaceChallangeTests11TestBadDataC"
+provides-member:
+- ["23BackSpaceChallangeTests17MockClientBadDataC", ""]
+- ["23BackSpaceChallangeTests11TestBadDataC", ""]
+provides-dynamic-lookup:
+- "setUp"
+- "tearDown"
+- "testBadDataAvailable"
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "Bundle"
+- "CityDataMagager"
+- !private "Data"
+- !private "Dictionary"
+- !private "JSONDecoder"
+- "MockClientBadData"
+- !private "StringLiteralType"
+- "TestBadData"
+- !private "URL"
+- "Void"
+- !private "XCTAssertNil"
+- !private "XCTAssertTrue"
+- !private "XCTFail"
+- "XCTestCase"
+- !private "XCTestExpectation"
+- "cityData"
+- "httpProtocols"
+- !private "type"
+depends-member:
+- !private ["Sa", "first"]
+- !private ["Sa", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["So6BundleC", "init"]
+- !private ["So6BundleC", "path"]
+- !private ["s7CVarArgP", "CityDataMagager"]
+- !private ["s7CVarArgP", "MockClientBadData"]
+- !private ["s7CVarArgP", "XCTAssertNil"]
+- !private ["s7CVarArgP", "XCTAssertTrue"]
+- !private ["s7CVarArgP", "XCTFail"]
+- !private ["s7CVarArgP", "XCTestExpectation"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "dataManager"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "fulfill"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "tearDown"]
+- !private ["s7CVarArgP", "wait"]
+- !private ["23BackSpaceChallangeTests15CityDataMagagerC", "client"]
+- !private ["23BackSpaceChallangeTests15CityDataMagagerC", "currentCitySelected"]
+- !private ["23BackSpaceChallangeTests15CityDataMagagerC", "deinit"]
+- !private ["23BackSpaceChallangeTests15CityDataMagagerC", "dict"]
+- !private ["23BackSpaceChallangeTests15CityDataMagagerC", "getCityDetailInformation"]
+- !private ["23BackSpaceChallangeTests15CityDataMagagerC", "getFilterResult"]
+- !private ["23BackSpaceChallangeTests15CityDataMagagerC", "init"]
+- !private ["23BackSpaceChallangeTests15CityDataMagagerC", "loadData"]
+- !private ["23BackSpaceChallangeTests17CityDataProtocolsP", "client"]
+- !private ["23BackSpaceChallangeTests17CityDataProtocolsP", "currentCitySelected"]
+- !private ["23BackSpaceChallangeTests17CityDataProtocolsP", "dict"]
+- !private ["23BackSpaceChallangeTests17CityDataProtocolsP", "getCityDetailInformation"]
+- !private ["23BackSpaceChallangeTests17CityDataProtocolsP", "getFilterResult"]
+- !private ["23BackSpaceChallangeTests17CityDataProtocolsP", "init"]
+- !private ["23BackSpaceChallangeTests17CityDataProtocolsP", "loadData"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CityDataMagager"]
+- !private ["s28CustomDebugStringConvertibleP", "MockClientBadData"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertNil"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertTrue"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTFail"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTestExpectation"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dataManager"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "fulfill"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "tearDown"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "CityDataMagager"]
+- !private ["s23CustomStringConvertibleP", "MockClientBadData"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertNil"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertTrue"]
+- !private ["s23CustomStringConvertibleP", "XCTFail"]
+- !private ["s23CustomStringConvertibleP", "XCTestExpectation"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "dataManager"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "fulfill"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "tearDown"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s10DictionaryV", "first"]
+- !private ["s10DictionaryV", "isEmpty"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EquatableP", "CityDataMagager"]
+- !private ["s9EquatableP", "MockClientBadData"]
+- !private ["s9EquatableP", "XCTAssertNil"]
+- !private ["s9EquatableP", "XCTAssertTrue"]
+- !private ["s9EquatableP", "XCTFail"]
+- !private ["s9EquatableP", "XCTestExpectation"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "dataManager"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "fulfill"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "path"]
+- !private ["s9EquatableP", "setUp"]
+- !private ["s9EquatableP", "tearDown"]
+- !private ["s9EquatableP", "wait"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "first"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "isEmpty"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "CityDataMagager"]
+- !private ["s8HashableP", "MockClientBadData"]
+- !private ["s8HashableP", "XCTAssertNil"]
+- !private ["s8HashableP", "XCTAssertTrue"]
+- !private ["s8HashableP", "XCTFail"]
+- !private ["s8HashableP", "XCTestExpectation"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "dataManager"]
+- !private ["s8HashableP", "fulfill"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "path"]
+- !private ["s8HashableP", "setUp"]
+- !private ["s8HashableP", "tearDown"]
+- !private ["s8HashableP", "wait"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["23BackSpaceChallangeTests17MockClientBadDataC", "Bundle"]
+- !private ["23BackSpaceChallangeTests17MockClientBadDataC", "Data"]
+- !private ["23BackSpaceChallangeTests17MockClientBadDataC", "JSONDecoder"]
+- !private ["23BackSpaceChallangeTests17MockClientBadDataC", "URL"]
+- ["23BackSpaceChallangeTests17MockClientBadDataC", "Void"]
+- ["23BackSpaceChallangeTests17MockClientBadDataC", "cityData"]
+- ["23BackSpaceChallangeTests17MockClientBadDataC", "deinit"]
+- ["23BackSpaceChallangeTests17MockClientBadDataC", "getMyData"]
+- ["23BackSpaceChallangeTests17MockClientBadDataC", "init"]
+- !private ["23BackSpaceChallangeTests17MockClientBadDataC", "type"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "isEmpty"]
+- ["So8NSObjectC", "CityDataMagager"]
+- !private ["So8NSObjectC", "MockClientBadData"]
+- !private ["So8NSObjectC", "XCTAssertNil"]
+- !private ["So8NSObjectC", "XCTAssertTrue"]
+- !private ["So8NSObjectC", "XCTFail"]
+- !private ["So8NSObjectC", "XCTestExpectation"]
+- ["So8NSObjectC", "dataManager"]
+- !private ["So8NSObjectC", "fulfill"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "path"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testBadDataAvailable"]
+- !private ["So8NSObjectC", "wait"]
+- !private ["So16NSObjectProtocolP", "CityDataMagager"]
+- !private ["So16NSObjectProtocolP", "MockClientBadData"]
+- !private ["So16NSObjectProtocolP", "XCTAssertNil"]
+- !private ["So16NSObjectProtocolP", "XCTAssertTrue"]
+- !private ["So16NSObjectProtocolP", "XCTFail"]
+- !private ["So16NSObjectProtocolP", "XCTestExpectation"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "dataManager"]
+- !private ["So16NSObjectProtocolP", "fulfill"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "path"]
+- !private ["So16NSObjectProtocolP", "setUp"]
+- !private ["So16NSObjectProtocolP", "tearDown"]
+- !private ["So16NSObjectProtocolP", "wait"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- ["23BackSpaceChallangeTests11TestBadDataC", "CityDataMagager"]
+- !private ["23BackSpaceChallangeTests11TestBadDataC", "MockClientBadData"]
+- !private ["23BackSpaceChallangeTests11TestBadDataC", "XCTAssertNil"]
+- !private ["23BackSpaceChallangeTests11TestBadDataC", "XCTAssertTrue"]
+- !private ["23BackSpaceChallangeTests11TestBadDataC", "XCTFail"]
+- !private ["23BackSpaceChallangeTests11TestBadDataC", "XCTestExpectation"]
+- ["23BackSpaceChallangeTests11TestBadDataC", "dataManager"]
+- ["23BackSpaceChallangeTests11TestBadDataC", "deinit"]
+- ["23BackSpaceChallangeTests11TestBadDataC", "init"]
+- ["23BackSpaceChallangeTests11TestBadDataC", "setUp"]
+- ["23BackSpaceChallangeTests11TestBadDataC", "tearDown"]
+- ["23BackSpaceChallangeTests11TestBadDataC", "testBadDataAvailable"]
+- !private ["23BackSpaceChallangeTests11TestBadDataC", "wait"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["So11XCTActivityP", "CityDataMagager"]
+- !private ["So11XCTActivityP", "MockClientBadData"]
+- !private ["So11XCTActivityP", "XCTAssertNil"]
+- !private ["So11XCTActivityP", "XCTAssertTrue"]
+- !private ["So11XCTActivityP", "XCTFail"]
+- !private ["So11XCTActivityP", "XCTestExpectation"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "dataManager"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "setUp"]
+- !private ["So11XCTActivityP", "tearDown"]
+- !private ["So11XCTActivityP", "wait"]
+- !private ["So17XCTWaiterDelegateP", "CityDataMagager"]
+- !private ["So17XCTWaiterDelegateP", "MockClientBadData"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertNil"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertTrue"]
+- !private ["So17XCTWaiterDelegateP", "XCTFail"]
+- !private ["So17XCTWaiterDelegateP", "XCTestExpectation"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "dataManager"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "setUp"]
+- !private ["So17XCTWaiterDelegateP", "tearDown"]
+- !private ["So17XCTWaiterDelegateP", "wait"]
+- ["So6XCTestC", "CityDataMagager"]
+- !private ["So6XCTestC", "MockClientBadData"]
+- !private ["So6XCTestC", "XCTAssertNil"]
+- !private ["So6XCTestC", "XCTAssertTrue"]
+- !private ["So6XCTestC", "XCTFail"]
+- !private ["So6XCTestC", "XCTestExpectation"]
+- ["So6XCTestC", "dataManager"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testBadDataAvailable"]
+- !private ["So6XCTestC", "wait"]
+- ["So10XCTestCaseC", "CityDataMagager"]
+- !private ["So10XCTestCaseC", "MockClientBadData"]
+- !private ["So10XCTestCaseC", "XCTAssertNil"]
+- !private ["So10XCTestCaseC", "XCTAssertTrue"]
+- !private ["So10XCTestCaseC", "XCTFail"]
+- !private ["So10XCTestCaseC", "XCTestExpectation"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "dataManager"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testBadDataAvailable"]
+- !private ["So10XCTestCaseC", "wait"]
+- !private ["So17XCTestExpectationC", "fulfill"]
+- !private ["So17XCTestExpectationC", "init"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CityDataMagager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MockClientBadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertNil"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertTrue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTFail"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTestExpectation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fulfill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tearDown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["23BackSpaceChallangeTests8cityDataV", "deinit"]
+- !private ["23BackSpaceChallangeTests13httpProtocolsP", "Bundle"]
+- !private ["23BackSpaceChallangeTests13httpProtocolsP", "Data"]
+- !private ["23BackSpaceChallangeTests13httpProtocolsP", "JSONDecoder"]
+- !private ["23BackSpaceChallangeTests13httpProtocolsP", "URL"]
+- ["23BackSpaceChallangeTests13httpProtocolsP", ""]
+- !private ["23BackSpaceChallangeTests13httpProtocolsP", "cityData"]
+- ["23BackSpaceChallangeTests13httpProtocolsP", "getMyData"]
+- !private ["23BackSpaceChallangeTests13httpProtocolsP", "init"]
+- !private ["23BackSpaceChallangeTests13httpProtocolsP", "type"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "So6BundleC"
+- "s7CVarArgP"
+- !private "23BackSpaceChallangeTests15CityDataMagagerC"
+- !private "23BackSpaceChallangeTests17CityDataProtocolsP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10Foundation11JSONDecoderC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "23BackSpaceChallangeTests17MockClientBadDataC"
+- !private "s17MutableCollectionP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- "23BackSpaceChallangeTests11TestBadDataC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "So17XCTestExpectationC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+- !private "23BackSpaceChallangeTests8cityDataV"
+- "23BackSpaceChallangeTests13httpProtocolsP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator/BackSpaceChallange.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a5a680281a64452e02c142591a1d09a6"

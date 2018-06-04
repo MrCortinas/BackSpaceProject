@@ -1,0 +1,8 @@
+23:12:06.830 Xcode[19349:1243288] Beginning test session BackSpaceChallangeTests-F211F1A7-2C0A-4CDB-B30F-63B0F9C2EEFA at 2018-06-03 23:12:06.829 with Xcode 9F1027a on target <DVTiPhoneSimulator: 0x7f85fa0e2350> {
+		SimDevice: iPhone 8 Plus (C88FBC94-57B3-44EE-AB8B-F335396179AA, iOS 11.4, Booted)
+} (11.4 (15F79))
+23:12:06.830 Xcode[19349:1243288] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+23:12:06.830 Xcode[19349:1243288] Test standard output and standard error is at /var/folders/57/wgbgzwt95b7d7qdvn2d9ff340000gn/T/com.apple.dt.XCTest/IDETestRunSession-E197F4E1-BAA6-4F0A-9CA2-4E2322E6D6DC/BackSpaceChallangeTests-9AF75CCB-8F80-4752-8284-76FDC47A1ABF/StandardOutputAndStandardError.txt
+23:12:06.830 Xcode[19349:1243288] Simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was claimed by TestSessionClaim_IDETestRunSession-E197F4E1-BAA6-4F0A-9CA2-4E2322E6D6DC
+23:12:07.713 Xcode[19349:1243288] Test operation failure: Test operation was canceled.
+23:12:07.713 Xcode[19349:1243288] _finishWithError:Error Domain=IDETestOperationsObserverErrorDomain Code=14 "Test operation was canceled." UserInfo={NSLocalizedDescription=Test operation was canceled.}

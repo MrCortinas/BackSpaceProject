@@ -1,0 +1,29 @@
+Test Suite 'All tests' started at 2018-06-03 23:07:50.336
+Test Suite 'BackSpaceChallangeTests.xctest' started at 2018-06-03 23:07:50.337
+Test Suite 'BackSpaceChallangeTests' started at 2018-06-03 23:07:50.337
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testExample]' started.
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testExample]' passed (0.001 seconds).
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testPerformanceExample]' started.
+/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/BackSpaceChallangeTests.swift:53: Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 122.040%, values: [0.000005, 0.000001, 0.000001, 0.000001, 0.000000, 0.000001, 0.000000, 0.000001, 0.000000, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testPerformanceExample]' passed (0.284 seconds).
+Test Suite 'BackSpaceChallangeTests' passed at 2018-06-03 23:07:50.625.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.285 (0.287) seconds
+Test Suite 'TestBadData' started at 2018-06-03 23:07:50.626
+Test Case '-[BackSpaceChallangeTests.TestBadData testNoDataAvailable]' started.
+Test Case '-[BackSpaceChallangeTests.TestBadData testNoDataAvailable]' passed (0.001 seconds).
+Test Suite 'TestBadData' passed at 2018-06-03 23:07:50.627.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'TestNoData' started at 2018-06-03 23:07:50.628
+Test Case '-[BackSpaceChallangeTests.TestNoData testNoDataAvailable]' started.
+Test Case '-[BackSpaceChallangeTests.TestNoData testNoDataAvailable]' passed (5.799 seconds).
+Test Suite 'TestNoData' passed at 2018-06-03 23:07:56.428.
+	 Executed 1 test, with 0 failures (0 unexpected) in 5.799 (5.800) seconds
+Test Suite 'TestSpecialData' started at 2018-06-03 23:07:56.429
+Test Case '-[BackSpaceChallangeTests.TestSpecialData testNoDataAvailable]' started.
+Test Case '-[BackSpaceChallangeTests.TestSpecialData testNoDataAvailable]' passed (0.002 seconds).
+Test Suite 'TestSpecialData' passed at 2018-06-03 23:07:56.432.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+Test Suite 'BackSpaceChallangeTests.xctest' passed at 2018-06-03 23:07:56.433.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 6.087 (6.096) seconds
+Test Suite 'All tests' passed at 2018-06-03 23:07:56.433.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 6.087 (6.098) seconds

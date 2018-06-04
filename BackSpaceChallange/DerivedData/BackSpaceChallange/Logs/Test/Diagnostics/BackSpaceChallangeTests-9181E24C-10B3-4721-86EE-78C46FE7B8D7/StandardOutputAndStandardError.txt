@@ -1,0 +1,70 @@
+Test Suite 'All tests' started at 2018-06-03 23:31:42.793
+Test Suite 'BackSpaceChallangeTests.xctest' started at 2018-06-03 23:31:42.794
+Test Suite 'BackSpaceChallangeTests' started at 2018-06-03 23:31:42.794
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testExample]' started.
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testExample]' passed (0.001 seconds).
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testPerformanceExample]' started.
+/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/BackSpaceChallangeTests.swift:54: Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 138.573%, values: [0.000005, 0.000001, 0.000001, 0.000000, 0.000000, 0.000001, 0.000000, 0.000000, 0.000000, 0.000000], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[BackSpaceChallangeTests.BackSpaceChallangeTests testPerformanceExample]' passed (0.279 seconds).
+Test Suite 'BackSpaceChallangeTests' passed at 2018-06-03 23:31:43.075.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.280 (0.281) seconds
+Test Suite 'TestBadData' started at 2018-06-03 23:31:43.076
+Test Case '-[BackSpaceChallangeTests.TestBadData testBadDataAvailable]' started.
+Test Case '-[BackSpaceChallangeTests.TestBadData testBadDataAvailable]' passed (0.001 seconds).
+Test Suite 'TestBadData' passed at 2018-06-03 23:31:43.077.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'TestNoData' started at 2018-06-03 23:31:43.078
+list:nil
+Test Case '-[BackSpaceChallangeTests.TestNoData testNoDataAvailable]' started.
+Test Case '-[BackSpaceChallangeTests.TestNoData testNoDataAvailable]' passed (0.002 seconds).
+Test Suite 'TestNoData' passed at 2018-06-03 23:31:43.083.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.002 (0.005) seconds
+Test Suite 'TestSpecialData' started at 2018-06-03 23:31:43.084
+Test Case '-[BackSpaceChallangeTests.TestSpecialData testSpecialCharactewrsAvailable]' started.
+Test Case '-[BackSpaceChallangeTests.TestSpecialData testSpecialCharactewrsAvailable]' passed (0.001 seconds).
+Test Suite 'TestSpecialData' passed at 2018-06-03 23:31:43.086.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'BackSpaceChallangeTests.xctest' passed at 2018-06-03 23:31:43.086.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.284 (0.292) seconds
+Test Suite 'All tests' passed at 2018-06-03 23:31:43.087.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.284 (0.294) seconds
+list:nil
+list:Optional(["Ω", "⍬", "⏂", "☺︎", "🂃", "🆓", "🈵", "💡", "🤕", "🤼‍♀️"])
+2018-06-03 23:32:20.211040-0400 BackSpaceChallange[75831:3754174] *** Assertion failure in void _XCTFailureHandler(XCTestCase *__strong _Nonnull, BOOL, const char * _Nonnull, NSUInteger, NSString *__strong _Nonnull, NSString *__strong _Nullable, ...)(), /Library/Caches/com.apple.xbs/Sources/XCTest_Sim/XCTest-14100/Sources/XCTestFramework/Core/XCTestAssertionsImpl.m:41
+2018-06-03 23:32:20.223693-0400 BackSpaceChallange[75831:3754174] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Parameter "test" must not be nil.'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x000000010bd001e6 __exceptionPreprocess + 294
+	1   libobjc.A.dylib                     0x0000000107c59031 objc_exception_throw + 48
+	2   CoreFoundation                      0x000000010bd05472 +[NSException raise:format:arguments:] + 98
+	3   Foundation                          0x000000010773264f -[NSAssertionHandler handleFailureInFunction:file:lineNumber:description:] + 165
+	4   XCTest                              0x000000011ed425e1 _XCTFailureHandler + 801
+	5   XCTest                              0x000000011ed42aa9 _XCTPreformattedFailureHandler + 155
+	6   libswiftXCTest.dylib                0x0000000120878100 _T06XCTest12XCTAssertNilyypSgyKXK_SSyXKs12StaticStringV4fileSu4linetFTf4ggxn_n + 2672
+	7   libswiftXCTest.dylib                0x00000001208754b7 _T06XCTest12XCTAssertNilyypSgyKXK_SSyXKs12StaticStringV4fileSu4linetFTm + 23
+	8   libswiftXCTest.dylib                0x0000000120875308 _T06XCTest12XCTAssertNilyypSgyKXK_SSyXKs12StaticStringV4fileSu4linetF + 40
+	9   BackSpaceChallangeTests             0x000000012082baa6 _T023BackSpaceChallangeTests15TestSpecialDataC04testF20CharactewrsAvailableyyFySaySSGSgcfU_ + 566
+	10  BackSpaceChallangeTests             0x0000000120839c0f _T023BackSpaceChallangeTests15CityDataMagagerC04loadF0yySaySSGSgc17completionHandler_tFyycfU_ySayAA04cityF0VGSgcfU_yycfU0_ + 511
+	11  BackSpaceChallangeTests             0x000000012083dec9 _T023BackSpaceChallangeTests15CityDataMagagerC04loadF0yySaySSGSgc17completionHandler_tFyycfU_ySayAA04cityF0VGSgcfU_yycfU0_TA + 25
+	12  BackSpaceChallangeTests             0x0000000120839c4d _T0Ieg_IeyB_TR + 45
+	13  libdispatch.dylib                   0x000000010ce636cb _dispatch_call_block_and_release + 12
+	14  libdispatch.dylib                   0x000000010ce64709 _dispatch_client_callout + 8
+	15  libdispatch.dylib                   0x000000010ce6e708 _dispatch_main_queue_callback_4CF + 1279
+	16  CoreFoundation                      0x000000010bcc2c99 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 9
+	17  CoreFoundation                      0x000000010bc86ea6 __CFRunLoopRun + 2342
+	18  CoreFoundation                      0x000000010bc8630b CFRunLoopRunSpecific + 635
+	19  XCTest                              0x000000011ed8b03a -[XCTWaiter waitForExpectations:timeout:enforceOrder:] + 742
+	20  XCTest                              0x000000011ed8e0ae +[XCTWaiter waitForExpectations:timeout:enforceOrder:] + 105
+	21  XCTest                              0x000000011eda6f33 -[XCTTestRunSession runTestsAndReturnError:] + 755
+	22  XCTest                              0x000000011ed18c71 -[XCTestDriver runTestsAndReturnError:] + 447
+	23  XCTest                              0x000000011ed9bbb1 _XCTestMain + 960
+	24  CoreFoundation                      0x000000010bca2b0c __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 12
+	25  CoreFoundation                      0x000000010bc872db __CFRunLoopDoBlocks + 331
+	26  CoreFoundation                      0x000000010bc86a84 __CFRunLoopRun + 1284
+	27  CoreFoundation                      0x000000010bc8630b CFRunLoopRunSpecific + 635
+	28  GraphicsServices                    0x000000010f376a73 GSEventRunModal + 62
+	29  UIKit                               0x0000000108988057 UIApplicationMain + 159
+	30  BackSpaceChallange                  0x0000000107320837 main + 55
+	31  libdyld.dylib                       0x000000010ced9955 start + 1
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException

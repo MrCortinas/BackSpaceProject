@@ -1,0 +1,12 @@
+Test Suite 'Selected tests' started at 2018-06-03 22:42:58.911
+Test Suite 'BackSpaceChallangeTests.xctest' started at 2018-06-03 22:42:58.912
+Test Suite 'TestNoData' started at 2018-06-03 22:42:58.912
+Test Case '-[BackSpaceChallangeTests.TestNoData testNoDataAvailable]' started.
+/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/TestNoData.swift:43: error: -[BackSpaceChallangeTests.TestNoData testNoDataAvailable] : XCTAssertNotNil failed - 
+Test Case '-[BackSpaceChallangeTests.TestNoData testNoDataAvailable]' failed (14.975 seconds).
+Test Suite 'TestNoData' failed at 2018-06-03 22:43:13.890.
+	 Executed 1 test, with 1 failure (0 unexpected) in 14.975 (14.978) seconds
+Test Suite 'BackSpaceChallangeTests.xctest' failed at 2018-06-03 22:43:13.891.
+	 Executed 1 test, with 1 failure (0 unexpected) in 14.975 (14.979) seconds
+Test Suite 'Selected tests' failed at 2018-06-03 22:43:13.895.
+	 Executed 1 test, with 1 failure (0 unexpected) in 14.975 (14.984) seconds

@@ -1,0 +1,294 @@
+23:12:31.593 Xcode[19349:1243288] Beginning test session BackSpaceChallangeTests-D11C0B2F-5314-42F9-8705-B4D5A7D69352 at 2018-06-03 23:12:31.592 with Xcode 9F1027a on target <DVTiPhoneSimulator: 0x7f85fa0e2350> {
+		SimDevice: iPhone 8 Plus (C88FBC94-57B3-44EE-AB8B-F335396179AA, iOS 11.4, Booted)
+} (11.4 (15F79))
+23:12:31.593 Xcode[19349:1243288] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+23:12:31.593 Xcode[19349:1243288] Test standard output and standard error is at /var/folders/57/wgbgzwt95b7d7qdvn2d9ff340000gn/T/com.apple.dt.XCTest/IDETestRunSession-64A201D4-C2A8-4949-B0BF-91C35EC66D71/BackSpaceChallangeTests-73B44921-1F3D-458D-BF2E-646482174701/StandardOutputAndStandardError.txt
+23:12:31.593 Xcode[19349:1243288] Simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was claimed by TestSessionClaim_IDETestRunSession-64A201D4-C2A8-4949-B0BF-91C35EC66D71
+23:12:34.039 Xcode[19349:1243288] Launch session started.
+23:12:34.074 Xcode[19349:1243288] Setting up test runner session
+23:12:34.074 Xcode[19349:3721029] Sim iPhone 8 Plus: Unregistering for sim device notification with token 278
+23:12:34.074 Xcode[19349:3721029] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+23:12:34.075 Xcode[19349:3721029] Sim iPhone 8 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.k8YuOgdX2g/com.apple.testmanagerd.unix-domain.socket
+23:12:34.076 Xcode[19349:3721029] Validating test connection socket path (/private/tmp/com.apple.launchd.k8YuOgdX2g/com.apple.testmanagerd.unix-domain.socket)
+23:12:34.076 Xcode[19349:3721029] Constructing transport for test connection socket
+23:12:34.076 Xcode[19349:3721029] Connected socket 147 to testmanagerd for Sim iPhone 8 Plus
+23:12:34.076 Xcode[19349:3721058] Received connection for test runner session
+23:12:34.076 Xcode[19349:3721058] Listening for proxy connection request from the test bundle
+23:12:34.076 Xcode[19349:3721058] Initiating session with identifier: D11C0B2F-5314-42F9-8705-B4D5A7D69352
+23:12:34.103 Xcode[19349:3719320] Got reply to session initiation request with identifier D11C0B2F-5314-42F9-8705-B4D5A7D69352 (result:error): 25: (null)
+23:12:34.113 Xcode[19349:1243288] Received Ready from iOSSimulator
+23:12:34.113 Xcode[19349:1243288] Sending notification: NSConcreteNotification 0x7f85d3380b80 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "C88FBC94-57B3-44EE-AB8B-F335396179AA";
+}}
+23:12:34.114 Xcode[19349:3721059] Simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was claimed by LaunchSessionClaim_0x7f85cc96db50
+23:12:34.138 Xcode[19349:1243288] Adding console adaptor <IDEConsoleAdaptor: 0x7f85c9eb36c0 'target' stdin: <IDEMasterPtyFileHandle: 0x7f85cdcf2330 MasterFH: <NSConcreteFileHandle: 0x7f85b4557030> 148 SlaveFH: <NSConcreteFileHandle: 0x7f85c931a6f0> 150> 148 stdout: <IDEMasterPtyFileHandle: 0x7f85cdcf2330 MasterFH: <NSConcreteFileHandle: 0x7f85b4557030> 148 SlaveFH: <NSConcreteFileHandle: 0x7f85c931a6f0> 150> 148 stderr: (null) 0> for test session D11C0B2F-5314-42F9-8705-B4D5A7D69352.
+23:12:34.155 Xcode[19349:1243288] Test runner session acquired connection.
+23:12:34.155 Xcode[19349:1243288] Waiting for test process to launch.
+23:12:34.160 Xcode[19349:1243288] Received Ready from iOSSimulator
+23:12:34.160 Xcode[19349:1243288] Sending notification: NSConcreteNotification 0x7f85d33bfde0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "C88FBC94-57B3-44EE-AB8B-F335396179AA";
+}}
+23:12:34.161 Xcode[19349:3719320] Simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was claimed by LaunchSessionClaim_0x7f85cc96db50
+23:12:34.162 Xcode[19349:3719320] C88FBC94-57B3-44EE-AB8B-F335396179AA: Registered for sim device notification, got token 279
+23:12:34.163 Xcode[19349:3721032] C88FBC94-57B3-44EE-AB8B-F335396179AA: Unregistering for sim device notification with token 279
+23:12:34.166 Xcode[19349:3721032] C88FBC94-57B3-44EE-AB8B-F335396179AA: Installing app at path: /Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator/BackSpaceChallange.app and options: (null)
+23:12:35.045 Xcode[19349:3721032] C88FBC94-57B3-44EE-AB8B-F335396179AA: Installed app at path: /Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator/BackSpaceChallange.app and options: (null)
+23:12:35.046 Xcode[19349:3721032] C88FBC94-57B3-44EE-AB8B-F335396179AA: Launching app with identifier: com.MrCortinas.CorpX.BackSpaceChallange and options: {
+    "activate_suspended" = 0;
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator:/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator:/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+        XCInjectBundleInto = "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator/BackSpaceChallange.app/BackSpaceChallange";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/57/wgbgzwt95b7d7qdvn2d9ff340000gn/T/com.apple.dt.XCTest/IDETestRunSession-64A201D4-C2A8-4949-B0BF-91C35EC66D71/BackSpaceChallangeTests-73B44921-1F3D-458D-BF2E-646482174701/LaunchSessions/D11C0B2F-5314-42F9-8705-B4D5A7D69352/remote-container/tmp/BackSpaceChallangeTests-D11C0B2F-5314-42F9-8705-B4D5A7D69352.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys001";
+    stdout = "/dev/ttys001";
+    "wait_for_debugger" = 1;
+}
+23:12:37.365 Xcode[19349:3721032] C88FBC94-57B3-44EE-AB8B-F335396179AA: Launched app with identifier: com.MrCortinas.CorpX.BackSpaceChallange (pid = 74883)
+23:12:37.366 Xcode[19349:3721032] Tracking pid 74883 for simulator <DVTiPhoneSimulator: 0x7f85fa0e2350> {
+		SimDevice: iPhone 8 Plus (C88FBC94-57B3-44EE-AB8B-F335396179AA, iOS 11.4, Booted)
+}
+23:12:37.366 Xcode[19349:3721032] Checking to see if pid 74883 is valid: kill(pid, 0) = 0 (YES, it's still running)
+23:12:37.366 Xcode[19349:3721032] Setting up DVTTaskNotifyOnProcDeath for pid 74883
+23:12:37.366 Xcode[19349:1243288] Test process runnable PID is 74883.
+23:12:39.151 Xcode[19349:1243288] Waiting for test process to check in..., will wait up to 120s
+23:12:40.815 Xcode[19349:3721032] Handling proxy channel request from test runner
+23:12:40.815 Xcode[19349:3721032] Test runner is ready, running protocol 25, requires at least version 8. Control framework is running 25 and requires at least 8
+23:12:40.815 Xcode[19349:1243288] Test runner session successfully initiated.
+23:12:40.815 Xcode[19349:1243288] Creating the daemon control session.
+23:12:40.815 Xcode[19349:1243288] Whitelisting test process ID 74883
+23:12:40.815 Xcode[19349:1243288] Got authorization request for pid 74883
+23:12:40.815 Xcode[19349:3721058] Sim iPhone 8 Plus: Unregistering for sim device notification with token 280
+23:12:40.815 Xcode[19349:3721058] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+23:12:40.816 Xcode[19349:3721058] Sim iPhone 8 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.k8YuOgdX2g/com.apple.testmanagerd.unix-domain.socket
+23:12:40.816 Xcode[19349:3721058] Validating test connection socket path (/private/tmp/com.apple.launchd.k8YuOgdX2g/com.apple.testmanagerd.unix-domain.socket)
+23:12:40.816 Xcode[19349:3721058] Constructing transport for test connection socket
+23:12:40.816 Xcode[19349:3721058] Connected socket 155 to testmanagerd for Sim iPhone 8 Plus
+23:12:40.817 Xcode[19349:3721062] Requesting authorization for pid 74883
+23:12:40.961 Xcode[19349:3721058] Got reply to authorization request for pid 74883 (result:error): 25: (null)
+23:12:40.961 Xcode[19349:1243288] Got whitelisting response from test daemon. Success: 1
+23:12:40.961 Xcode[19349:1243288] Registering/updating daemon-based crash report observer for process names (
+    XCTRunner,
+    BackSpaceChallange,
+    xctest
+), report directories: (
+    "/Users/gabrielcortinas/Library/Logs/DiagnosticReports",
+    "/Library/Logs/DiagnosticReports"
+).
+23:10:55.323 testmanagerd[67458:3718671] XCIDESession is responsible for cleaning up its socket
+23:10:55.324 testmanagerd[67458:3713070] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7f971e4145a0> (socket 6) created Sunday, June 3, 2018 at 11:07:50 PM Eastern Daylight Time
+23:10:55.324 testmanagerd[67458:3713070] Tearing down <XCIDESession: 0x7f971e4145a0> (socket 6) created Sunday, June 3, 2018 at 11:07:50 PM Eastern Daylight Time.
+23:10:55.324 testmanagerd[67458:3713070] Control session closed, will disconnect from matching testing client.
+23:10:55.324 testmanagerd[67458:3713070] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control sessions
+23:12:34.086 testmanagerd[67458:3718668] IDE connected over socket 5 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+23:12:34.090 testmanagerd[67458:3718668] Created session with socket 5
+23:12:34.096 testmanagerd[67458:3718668] Adding <XCIDESession: 0x7f971e50c9b0> (socket 5) created Sunday, June 3, 2018 at 11:12:34 PM Eastern Daylight Time to the set of unidentified IDE sessions
+23:12:34.098 testmanagerd[67458:3718668] Handled a proxy request from the IDE with session <XCIDESession: 0x7f971e50c9b0> (socket 5) created Sunday, June 3, 2018 at 11:12:34 PM Eastern Daylight Time proxy <_DTXProxy: 0x7f971e60f300>
+23:12:34.099 testmanagerd[67458:3505349] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke D11C0B2F-5314-42F9-8705-B4D5A7D69352 1 5 from client DBFD82EE-6C69-43FF-975F-0A067A093E89-19349-0000E6519C4C6A25 (/Applications/Xcode.app)
+23:12:34.101 testmanagerd[67458:3505349] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke D11C0B2F-5314-42F9-8705-B4D5A7D69352 Replied with protocol version 25
+23:12:34.101 testmanagerd[67458:3721249] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7f971e50c9b0> (socket 5) created Sunday, June 3, 2018 at 11:12:34 PM Eastern Daylight Time for client DBFD82EE-6C69-43FF-975F-0A067A093E89-19349-0000E6519C4C6A25 waiting to pair with test session D11C0B2F-5314-42F9-8705-B4D5A7D69352 -> D11C0B2F-5314-42F9-8705-B4D5A7D69352
+23:12:40.764 testmanagerd[67458:3721590] Received new test session connection from process with PID 74883
+23:12:40.786 testmanagerd[67458:3721590] Looking up app info for pid 74883
+23:12:40.809 testmanagerd[67458:3721591] Test session D11C0B2F-5314-42F9-8705-B4D5A7D69352 requested transport for IDE (-[XCTestSession _XCT_requestSerializedTransportWrapperForIDESessionWithIdentifier:reply:])
+23:12:40.809 testmanagerd[67458:3721592] Test session D11C0B2F-5314-42F9-8705-B4D5A7D69352 requested serialized transport (-[XCTDaemon requestSerializedTransportForSessionIdentifier:reply:]_block_invoke)
+23:12:40.809 testmanagerd[67458:3721592] Initiating serialized transport handoff from IDE connection to test host.
+23:12:40.809 testmanagerd[67458:3721592] -[XCIDESession closeConnectionAndHandOffTransportWithCompletionHandler:] sending barrier
+23:12:40.809 testmanagerd[67458:3721592] Barrier flushed. Cancelling connection. Socket will not be closed
+23:12:40.809 testmanagerd[67458:3721590] DTXSocketTransport for socket 5 disconnected, owner is <XCIDESession: 0x7f971e50c9b0> (socket 5) created Sunday, June 3, 2018 at 11:12:34 PM Eastern Daylight Time for client DBFD82EE-6C69-43FF-975F-0A067A093E89-19349-0000E6519C4C6A25 waiting to pair with test session D11C0B2F-5314-42F9-8705-B4D5A7D69352
+23:12:40.809 testmanagerd[67458:3721592] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7f971e50c9b0> (socket 5) created Sunday, June 3, 2018 at 11:12:34 PM Eastern Daylight Time for client DBFD82EE-6C69-43FF-975F-0A067A093E89-19349-0000E6519C4C6A25 waiting to pair with test session D11C0B2F-5314-42F9-8705-B4D5A7D69352
+23:12:40.811 testmanagerd[67458:3721592] Tearing down <XCIDESession: 0x7f971e50c9b0> (socket 5) created Sunday, June 3, 2018 at 11:12:34 PM Eastern Daylight Time for client DBFD82EE-6C69-43FF-975F-0A067A093E89-19349-0000E6519C4C6A25 waiting to pair with test session D11C0B2F-5314-42F9-8705-B4D5A7D69352.
+23:12:40.811 testmanagerd[67458:3721592] Session summary: 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control sessions
+23:12:40.837 testmanagerd[67458:3721592] IDE connected over socket 6 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+23:12:40.837 testmanagerd[67458:3721592] Created session with socket 6
+23:12:40.888 testmanagerd[67458:3721591] Adding <XCIDESession: 0x7f971e41d1d0> (socket 6) created Sunday, June 3, 2018 at 11:12:40 PM Eastern Daylight Time to the set of unidentified IDE sessions
+23:12:40.913 testmanagerd[67458:3721591] Handled a proxy request from the IDE with session <XCIDESession: 0x7f971e41d1d0> (socket 6) created Sunday, June 3, 2018 at 11:12:40 PM Eastern Daylight Time proxy <_DTXProxy: 0x7f971e70f8f0>
+23:12:40.918 testmanagerd[67458:3721591] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 74883 25
+23:12:40.951 testmanagerd[67458:3505349] Adding control session <XCIDESession: 0x7f971e41d1d0> (socket 6) created Sunday, June 3, 2018 at 11:12:40 PM Eastern Daylight Time with protocol version 25
+23:12:40.952 testmanagerd[67458:3721591] Got app info for pid 74883: {
+    BKSApplicationStateAppIsFrontmost = 1;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "com.MrCortinas.CorpX.BackSpaceChallange";
+    SBApplicationStateKey = 8;
+    SBApplicationStateProcessIDKey = 74883;
+    SBApplicationStateRunningReasonsKey =     (
+                {
+            SBApplicationStateRunningReasonAssertionIdentifierKey = Resume;
+            SBApplicationStateRunningReasonAssertionReasonKey = 10000;
+        }
+    );
+    SBMostElevatedStateForProcessID = 8;
+}
+23:12:40.952 testmanagerd[67458:3721591] Got request for process assertion for pid 74883.
+23:12:40.953 testmanagerd[67458:3721591] Created process assertion for pid 74883: <BKSProcessAssertion: 0x7f971e517c30>, waiting for response from assertiond.
+23:12:40.953 testmanagerd[67458:3721591] Starting to monitor com.MrCortinas.CorpX.BackSpaceChallange
+23:12:40.981 testmanagerd[67458:3721594] Got application state update: com.apple.FileProvider.LocalStorage (67505) -> 2
+23:12:40.981 testmanagerd[67458:3721592] <XCTestSession: 0x7f971e41b560> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.apple.FileProvider.LocalStorage 67505 2
+23:12:40.982 testmanagerd[67458:3721591] Got reply for process assertion request, success: YES
+23:12:40.982 testmanagerd[67458:3721591] Got reply for process assertion request, success: YES
+23:12:40.982 testmanagerd[67458:3721591] Got application state update: com.MrCortinas.CorpX.BackSpaceChallange (74883) -> 8
+23:12:40.983 testmanagerd[67458:3721592] <XCTestSession: 0x7f971e41b560> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.MrCortinas.CorpX.BackSpaceChallange 74883 8
+23:12:40.983 testmanagerd[67458:3505349] Received request to collect crash reports in directories '/Users/gabrielcortinas/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'XCTRunner', 'BackSpaceChallange', 'xctest'
+23:12:40.984 testmanagerd[67458:3505349] Initializing crash report observer for /Users/gabrielcortinas/Library/Logs/DiagnosticReports
+23:12:40.984 testmanagerd[67458:3505349] Getting files in /Users/gabrielcortinas/Library/Logs/DiagnosticReports
+23:12:41.000 testmanagerd[67458:3505349] Found 3 files in /Users/gabrielcortinas/Library/Logs/DiagnosticReports
+23:12:41.001 testmanagerd[67458:3505349] Started monitoring /Users/gabrielcortinas/Library/Logs/DiagnosticReports
+23:12:41.001 testmanagerd[67458:3505349] Initializing crash report observer for /Library/Logs/DiagnosticReports
+23:12:41.001 testmanagerd[67458:3505349] Getting files in /Library/Logs/DiagnosticReports
+23:12:41.034 testmanagerd[67458:3505349] Found 176 files in /Library/Logs/DiagnosticReports
+23:12:41.034 testmanagerd[67458:3505349] Started monitoring /Library/Logs/DiagnosticReports
+23:12:41.037 Xcode[19349:1243288] Telling test runner to start executing tests.
+23:12:40.760 BackSpaceChallange[74883:3721462] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 0940(9Q1019a), modified on Thursday, May 17, 2018 at 1:35:22 AM Eastern Daylight Time
+XCTest.framework bundle version: 14100
+23:12:40.761 BackSpaceChallange[74883:3721462] System uptime: 2:17:27
+23:12:40.761 BackSpaceChallange[74883:3721462] Process arguments: (
+    "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/Containers/Bundle/Application/C4ACA6FD-CF53-4362-9BD2-5220222D12A7/BackSpaceChallange.app/BackSpaceChallange",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+23:12:40.762 BackSpaceChallange[74883:3721462] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/Containers/Data/Application/987BAA0C-262E-4512-9633-14E882F5A995";
+    CLASSIC = 0;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.BM3R0FoY4T/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator:/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+    "DYLD_LIBRARY_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator:/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    HOME = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/Containers/Data/Application/987BAA0C-262E-4512-9633-14E882F5A995";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.C88FBC94-57B3-44EE-AB8B-F335396179AA/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data";
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/Library/Application Support/Simulator/extended_display.plist";
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/local/bin";
+    "RWI_LISTEN_SOCKET" = "/private/tmp/com.apple.launchd.1MsI6rurTv/com.apple.webinspectord_sim.socket";
+    "SIMULATOR_AUDIO_DEVICES_PLIST_PATH" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/var/run/com.apple.coresimulator.audio.plist";
+    "SIMULATOR_AUDIO_SETTINGS_PATH" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/var/run/simulatoraudio/audiosettings.plist";
+    "SIMULATOR_BOOT_TIME" = 1528073713;
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 8 Plus.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 8 Plus";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Platforms/iphoneos/Library/Frameworks/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/gabrielcortinas";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/gabrielcortinas/Library/Logs/CoreSimulator/C88FBC94-57B3-44EE-AB8B-F335396179AA";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 2208;
+    "SIMULATOR_MAINSCREEN_PITCH" = "461.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "3.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 1242;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone10,5";
+    "SIMULATOR_PRODUCT_CLASS" = D21;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 15F79;
+    "SIMULATOR_RUNTIME_VERSION" = "11.4";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data";
+    "SIMULATOR_UDID" = "C88FBC94-57B3-44EE-AB8B-F335396179AA";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 518.22 - Device: iPhone 8 Plus - Runtime: iOS 11.4 (15F79) - DeviceType: iPhone 8 Plus";
+    "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.k8YuOgdX2g/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/Containers/Data/Application/987BAA0C-262E-4512-9633-14E882F5A995/tmp";
+    XCInjectBundleInto = "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator/BackSpaceChallange.app/BackSpaceChallange";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/57/wgbgzwt95b7d7qdvn2d9ff340000gn/T/com.apple.dt.XCTest/IDETestRunSession-64A201D4-C2A8-4949-B0BF-91C35EC66D71/BackSpaceChallangeTests-73B44921-1F3D-458D-BF2E-646482174701/LaunchSessions/D11C0B2F-5314-42F9-8705-B4D5A7D69352/remote-container/tmp/BackSpaceChallangeTests-D11C0B2F-5314-42F9-8705-B4D5A7D69352.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.MrCortinas.CorpX.BackSpaceChallange[0x9245][67298]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.C88FBC94-57B3-44EE-AB8B-F335396179AA";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator";
+}
+23:12:40.762 BackSpaceChallange[74883:3721462] App Sandbox active: NO
+23:12:40.762 BackSpaceChallange[74883:3721462] Loading test bundle at: file:///Users/gabrielcortinas/Desktop/Xcode%20Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator/BackSpaceChallange.app/PlugIns/BackSpaceChallangeTests.xctest/
+23:12:40.762 BackSpaceChallange[74883:3721462] Finished loading test bundle
+23:12:40.762 BackSpaceChallange[74883:3721462] Readying IDE session
+23:12:40.763 BackSpaceChallange[74883:3721462] Creating future for 'Exchange protocol versions with daemon' with timeout 15.00
+23:12:40.764 BackSpaceChallange[74883:3721462] <XCTWaiter: 0x604000008130, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: (
+    "Exchange protocol versions with daemon"
+)
+23:12:40.808 BackSpaceChallange[74883:3721579] <XCTWaiter: 0x604000008130, state: XCTWaiterStateSucceeded>: cancelWaiting
+23:12:40.808 BackSpaceChallange[74883:3721462] <XCTWaiter: 0x604000008130, state: XCTWaiterStateSucceeded> done waiting
+23:12:40.808 BackSpaceChallange[74883:3721462] <XCTWaiter: 0x604000008130, state: XCTWaiterStateSucceeded> cleaning up Exchange protocol versions with daemon
+23:12:40.808 BackSpaceChallange[74883:3721462] Got daemon protocol version 22
+23:12:40.808 BackSpaceChallange[74883:3721462] Requesting IDE connection transport
+23:12:40.809 BackSpaceChallange[74883:3721462] <XCTWaiter: 0x604000008170, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "Transport for IDE session acquired"
+)
+23:12:40.809 BackSpaceChallange[74883:3721577] Creating transport with received transport data
+23:12:40.810 BackSpaceChallange[74883:3721577] <XCTWaiter: 0x604000008170, state: XCTWaiterStateSucceeded>: cancelWaiting
+23:12:40.810 BackSpaceChallange[74883:3721462] <XCTWaiter: 0x604000008170, state: XCTWaiterStateSucceeded> done waiting
+23:12:40.810 BackSpaceChallange[74883:3721462] <XCTWaiter: 0x604000008170, state: XCTWaiterStateSucceeded> cleaning up Transport for IDE session acquired
+23:12:40.810 BackSpaceChallange[74883:3721462] Creating connection with transport <DTXFileDescriptorTransport: 0x600001cec780>
+23:12:40.812 BackSpaceChallange[74883:3721462] Creating the proxy channel with connection <DTXConnection 0x6040001e4b00 : x1>
+23:12:40.813 BackSpaceChallange[74883:3721462] Creating future for 'IDE session ready for test plan' with timeout 60.00
+23:12:40.814 BackSpaceChallange[74883:3721462] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:25 minimumVersion:8
+23:12:40.815 BackSpaceChallange[74883:3721462] <XCTWaiter: 0x604000006fc0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "IDE session ready for test plan"
+)
+23:12:40.816 BackSpaceChallange[74883:3721579] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+23:12:41.037 BackSpaceChallange[74883:3721579] _IDE_startExecutingTestPlanWithProtocolVersion:25
+23:12:41.037 BackSpaceChallange[74883:3721585] <XCTWaiter: 0x604000006fc0, state: XCTWaiterStateSucceeded>: cancelWaiting
+23:12:41.038 BackSpaceChallange[74883:3721462] <XCTWaiter: 0x604000006fc0, state: XCTWaiterStateSucceeded> done waiting
+23:12:41.038 BackSpaceChallange[74883:3721462] <XCTWaiter: 0x604000006fc0, state: XCTWaiterStateSucceeded> cleaning up IDE session ready for test plan
+23:12:41.042 Xcode[19349:1243288] Starting test plan, clearing initialization timeout timer.
+23:12:41.042 BackSpaceChallange[74883:3721462] Loading test suite...
+23:12:41.098 BackSpaceChallange[74883:3721462] Finished loading test suite, took 0.057s
+Test Suite 'All tests' started at 2018-06-03 23:12:41.099
+23:12:41.100 Xcode[19349:1243288] <IDETestOperationCoordinator: 0x7f85cdc16d40>: parseConsoleOutputFromOriginalOutput: called, 137 bytes written out to StandardOutputAndStandardError
+23:12:41.099 BackSpaceChallange[74883:3721462] -[XCTRunnerIDESession testBundleWillStart:]
+23:12:41.099 BackSpaceChallange[74883:3721462] Running suite...
+23:12:41.099 BackSpaceChallange[74883:3721462] -[XCTRunnerIDESession testSuiteWillStart:]
+23:12:41.100 Xcode[19349:1243288] _XCT_testSuite:All tests didStartAt:2018-06-04 03:12:41 +0000
+23:12:41.104 Xcode[19349:3721059] (LOG ARBITER) Dumping buffered message data; 0 messages.
+23:12:41.384 Xcode[19349:3721032] (LOG ARBITER) Dumping buffered message data; 0 messages.
+23:12:41.397 Xcode[19349:3721058] (LOG ARBITER) Dumping buffered message data; 0 messages.
+23:12:44.181 Xcode[19349:3721059] (LOG ARBITER) Rotating message buffer with 56 messages.
+23:12:46.311 Xcode[19349:3721059] (LOG ARBITER) Dumping buffered message data; 56 messages.
+23:12:46.326 Xcode[19349:3721029] (LOG ARBITER) Dumping buffered message data; 0 messages.
+23:12:47.829 Xcode[19349:3721059] (LOG ARBITER) Rotating message buffer with 21 messages.
+Test Case '-[BackSpaceChallangeTests.TestNoData testNoDataAvailable]' passed (4.923 seconds).
+Test Suite 'TestNoData' passed at 2018-06-03 23:12:46.307.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.923 (4.924) seconds
+Test Suite 'TestSpecialData' started at 2018-06-03 23:12:46.308
+Test Case '-[BackSpaceChallangeTests.TestSpecialData testNoDataAvailable]' started.
+Test Case '-[BackSpaceChallangeTests.TestSpecialData testNoDataAvailable]' passed (0.000 seconds).
+Test Suite 'TestSpecialData' passed at 2018-06-03 23:12:46.309.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'BackSpaceChallangeTests.xctest' passed at 2018-06-03 23:12:46.309.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 5.204 (5.210) seconds
+23:12:46.310 Xcode[19349:1243288] <IDETestOperationCoordinator: 0x7f85cdc16d40>: parseConsoleOutputFromOriginalOutput: called, 903 bytes written out to StandardOutputAndStandardError
+23:12:46.307 BackSpaceChallange[74883:3721462] -[XCTRunnerIDESession testCaseDidFinish:]
+23:12:46.311 Xcode[19349:1243288] _XCT_testCaseDidFinishForTestClass:BackSpaceChallangeTests.TestNoData method:testNoDataAvailable withStatus:passed duration:4.923212051391602
+23:12:46.325 Xcode[19349:1243288] _XCT_testSuite:TestNoData didFinishAt:2018-06-04 03:12:46 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:4.923212051391602 totalDuration:4.924417018890381
+23:12:46.308 BackSpaceChallange[74883:3721462] -[XCTRunnerIDESession testSuiteDidFinish:]
+23:12:46.308 BackSpaceChallange[74883:3721462] -[XCTRunnerIDESession testSuiteWillStart:]
+23:12:46.325 Xcode[19349:1243288] _XCT_testSuite:TestSpecialData didStartAt:2018-06-04 03:12:46 +0000
+23:12:46.308 BackSpaceChallange[74883:3721462] -[XCTRunnerIDESession testCaseWillStart:] BackSpaceChallangeTests.TestSpecialData testNoDataAvailable
+23:12:46.325 Xcode[19349:1243288] _XCT_testCaseDidStartForTestClass:BackSpaceChallangeTests.TestSpecialData method:testNoDataAvailable
+23:12:46.309 BackSpaceChallange[74883:3721462] -[XCTRunnerIDESession testCaseDidFinish:]
+23:12:46.326 Xcode[19349:1243288] _XCT_testCaseDidFinishForTestClass:BackSpaceChallangeTests.TestSpecialData method:testNoDataAvailable withStatus:passed duration:0.0004590749740600586
+23:12:46.309 BackSpaceChallange[74883:3721462] -[XCTRunnerIDESession testSuiteDidFinish:]
+23:12:46.531 Xcode[19349:1243288] Clearing timeout timer while paused in the debugger. Timeout conditions may not be detected during this session.
+23:12:46.610 Xcode[19349:1243288] <IDETestOperationCoordinator: 0x7f85cdc16d40>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+23:12:55.922 Xcode[19349:1243288] Test operation failure: Test operation was canceled.
+23:12:55.922 Xcode[19349:1243288] _finishWithError:Error Domain=IDETestOperationsObserverErrorDomain Code=14 "Test operation was canceled." UserInfo={NSLocalizedDescription=Test operation was canceled.}

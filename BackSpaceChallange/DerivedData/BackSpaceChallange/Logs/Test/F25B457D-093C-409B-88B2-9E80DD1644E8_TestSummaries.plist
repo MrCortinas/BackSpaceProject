@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.2</string>
+	<key>RunDestination</key>
+	<dict>
+		<key>LocalComputer</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>100</integer>
+			<key>CPUCount</key>
+			<integer>1</integer>
+			<key>CPUKind</key>
+			<string>Intel Core i5</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2300</integer>
+			<key>Identifier</key>
+			<string>DA814C95-83E4-537F-B147-921BE1252818</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>4</integer>
+			<key>ModelCode</key>
+			<string>MacBookPro14,1</string>
+			<key>ModelName</key>
+			<string>MacBook Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macbookpro-13-retina-usbc-2017</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64h</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.13.4</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.13.4 (17E202)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>2</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>macOS</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>8192</integer>
+		</dict>
+		<key>Name</key>
+		<string>iPhone 8 Plus</string>
+		<key>TargetArchitecture</key>
+		<string>x86_64</string>
+		<key>TargetDevice</key>
+		<dict>
+			<key>Identifier</key>
+			<string>C88FBC94-57B3-44EE-AB8B-F335396179AA</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>ModelCode</key>
+			<string>iPhone10,5</string>
+			<key>ModelName</key>
+			<string>iPhone 8 Plus</string>
+			<key>ModelUTI</key>
+			<string>com.apple.iphone-8-plus-2</string>
+			<key>Name</key>
+			<string>iPhone 8 Plus</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64</string>
+			<key>OperatingSystemVersion</key>
+			<string>11.4</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>11.4 (15F79)</string>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.iphonesimulator</string>
+				<key>Name</key>
+				<string>iOS Simulator</string>
+			</dict>
+		</dict>
+		<key>TargetSDK</key>
+		<dict>
+			<key>Identifier</key>
+			<string>iphonesimulator11.4</string>
+			<key>IsInternal</key>
+			<false/>
+			<key>Name</key>
+			<string>Simulator - iOS 11.4</string>
+			<key>OperatingSystemVersion</key>
+			<string>11.4</string>
+		</dict>
+	</dict>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>DiagnosticsDirectory</key>
+			<string>BackSpaceChallangeTests-59FA0558-FA88-4897-A5E9-A0BB0D6D2E30</string>
+			<key>ProjectPath</key>
+			<string>BackSpaceChallange.xcodeproj</string>
+			<key>TargetName</key>
+			<string>BackSpaceChallangeTests</string>
+			<key>TestName</key>
+			<string>BackSpaceChallangeTests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Duration</key>
+					<real>64.254603028297424</real>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Duration</key>
+							<real>64.251367926597595</real>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>Duration</key>
+									<real>64.250224947929382</real>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>Duration</key>
+											<real>0.00082194805145263672</real>
+											<key>TestIdentifier</key>
+											<string>BackSpaceChallangeTests/testExample()</string>
+											<key>TestName</key>
+											<string>testExample()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>09D453E0-2788-4114-AB51-B4B5F23083F5</string>
+										</dict>
+										<dict>
+											<key>ActivitySummaries</key>
+											<array>
+												<dict>
+													<key>ActivityType</key>
+													<string>com.apple.dt.xctest.activity-type.testAssertionFailure</string>
+													<key>FinishTimeInterval</key>
+													<real>549767660.49037194</real>
+													<key>StartTimeInterval</key>
+													<real>549767660.48968601</real>
+													<key>Title</key>
+													<string>Assertion Failure: BackSpaceChallangeTests.swift:101: failed: caught "NSInternalInconsistencyException", "API violation - call made to wait without any expectations having been set."
+(
+	0   CoreFoundation                      0x000000010609b1e6 __exceptionPreprocess + 294
+	1   libobjc.A.dylib                     0x0000000101ff4031 objc_exception_throw + 48
+	2   CoreFoundation                      0x00000001060a0472 +[NSException raise:format:arguments:] + 98
+	3   Foundation                          0x0000000101a97652 -[NSAssertionHandler handleFailureInMethod:object:file:lineNumber:description:] + 193
+	4   XCTest                              0x00000001190bfad2 -[XCTestCase(AsynchronousTesting) waitForExpectationsWithTimeout:handler:] + 1214
+	5   BackSpaceChallangeTests             0x000000011abd056e _T023BackSpaceChallangeTestsAAC19testNoDataAvailableyyF + 926
+	6   BackSpaceChallangeTests             0x000000011abd09a4 _T023BackSpaceChallangeTestsAAC19testNoDataAvailableyyFTo + 36
+	7   CoreFoundation                      0x000000010601eccc __invoking___ + 140
+	8   CoreFoundation                      0x000000010601eb84 -[NSInvocation invoke] + 308
+	9   XCTest                              0x00000001190d101a __24-[XCTestCase invokeTest]_block_invoke.184 + 74
+	10  XCTest                              0x000000011912bae3 +[XCTestCase(Failures) performFailableBlock:shouldInterruptTest:] + 36
+	11  XCTest                              0x000000011912ba2e -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 54
+	12  XCTest                              0x00000001190d0ce3 __24-[XCTestCase invokeTest]_block_invoke + 847
+	13  XCTest                              0x0000000119130a7d -[XCUITestContext performInScope:] + 248
+	14  XCTest                              0x00000001190d097f -[XCTestCase invokeTest] + 175
+	15  XCTest                              0x00000001190d2555 __26-[XCTestCase performTest:]_block_invoke_2 + 42
+	16  XCTest                              0x000000011912bae3 +[XCTestCase(Failures) performFailableBlock:shouldInterruptTest:] + 36
+	17  XCTest                              0x000000011912ba2e -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 54
+	18  XCTest                              0x00000001190d2402 __26-[XCTestCase performTest:]_block_invoke.318 + 90
+	19  XCTest                              0x0000000119138061 +[XCTContext runInContextForTestCase:block:] + 225
+	20  XCTest                              0x00000001190d1aff -[XCTestCase performTest:] + 673
+	21  XCTest                              0x0000000119114727 -[XCTest runTest] + 57
+	22  XCTest                              0x00000001190cd341 __27-[XCTestSuite performTest:]_block_invoke + 365
+	23  XCTest                              0x00000001190ccb1d -[XCTestSuite _performProtectedSectionForTest:testSection:] + 55
+	24  XCTest                              0x00000001190ccdde -[XCTestSuite performTest:] + 296
+	25  XCTest                              0x0000000119114727 -[XCTest runTest] + 57
+	26  XCTest                              0x00000001190cd341 __27-[XCTestSuite performTest:]_block_invoke + 365
+	27  XCTest                              0x00000001190ccb1d -[XCTestSuite _performProtectedSectionForTest:testSection:] + 55
+	28  XCTest                              0x00000001190ccdde -[XCTestSuite performTest:] + 296
+	29  XCTest                              0x0000000119114727 -[XCTest runTest] + 57
+	30  XCTest                              0x00000001190cd341 __27-[XCTestSuite performTest:]_block_invoke + 365
+	31  XCTest                              0x00000001190ccb1d -[XCTestSuite _performProtectedSectionForTest:testSection:] + 55
+	32  XCTest                              0x00000001190ccdde -[XCTestSuite performTest:] + 296
+	33  XCTest                              0x0000000119114727 -[XCTest runTest] + 57
+	34  XCTest                              0x0000000119141fa6 __44-[XCTTestRunSession runTestsAndReturnError:]_block_invoke + 40
+	35  XCTest                              0x00000001190e5389 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 594
+	36  XCTest                              0x0000000119141db1 -[XCTTestRunSession runTestsAndReturnError:] + 369
+	37  XCTest                              0x00000001190b3c71 -[XCTestDriver runTestsAndReturnError:] + 447
+	38  XCTest                              0x0000000119136bb1 _XCTestMain + 960
+	39  CoreFoundation                      0x000000010603db0c __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 12
+	40  CoreFoundation                      0x00000001060222db __CFRunLoopDoBlocks + 331
+	41  CoreFoundation                      0x0000000106021a84 __CFRunLoopRun + 1284
+	42  CoreFoundation                      0x000000010602130b CFRunLoopRunSpecific + 635
+	43  GraphicsServices                    0x000000010a322a73 GSEventRunModal + 62
+	44  UIKit                               0x0000000102d23057 UIApplicationMain + 159
+	45  BackSpaceChallange                  0x00000001016bb5b7 main + 55
+	46  libdyld.dylib                       0x0000000107274955 start + 1
+)</string>
+													<key>UUID</key>
+													<string>AA8E6113-CA6E-40B5-B487-7044939781DC</string>
+												</dict>
+											</array>
+											<key>Duration</key>
+											<real>63.995316028594971</real>
+											<key>FailureSummaries</key>
+											<array>
+												<dict>
+													<key>FileName</key>
+													<string>/Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/BackSpaceChallangeTests/BackSpaceChallangeTests.swift</string>
+													<key>LineNumber</key>
+													<integer>101</integer>
+													<key>Message</key>
+													<string>failed: caught "NSInternalInconsistencyException", "API violation - call made to wait without any expectations having been set."
+(
+	0   CoreFoundation                      0x000000010609b1e6 __exceptionPreprocess + 294
+	1   libobjc.A.dylib                     0x0000000101ff4031 objc_exception_throw + 48
+	2   CoreFoundation                      0x00000001060a0472 +[NSException raise:format:arguments:] + 98
+	3   Foundation                          0x0000000101a97652 -[NSAssertionHandler handleFailureInMethod:object:file:lineNumber:description:] + 193
+	4   XCTest                              0x00000001190bfad2 -[XCTestCase(AsynchronousTesting) waitForExpectationsWithTimeout:handler:] + 1214
+	5   BackSpaceChallangeTests             0x000000011abd056e _T023BackSpaceChallangeTestsAAC19testNoDataAvailableyyF + 926
+	6   BackSpaceChallangeTests             0x000000011abd09a4 _T023BackSpaceChallangeTestsAAC19testNoDataAvailableyyFTo + 36
+	7   CoreFoundation                      0x000000010601eccc __invoking___ + 140
+	8   CoreFoundation                      0x000000010601eb84 -[NSInvocation invoke] + 308
+	9   XCTest                              0x00000001190d101a __24-[XCTestCase invokeTest]_block_invoke.184 + 74
+	10  XCTest                              0x000000011912bae3 +[XCTestCase(Failures) performFailableBlock:shouldInterruptTest:] + 36
+	11  XCTest                              0x000000011912ba2e -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 54
+	12  XCTest                              0x00000001190d0ce3 __24-[XCTestCase invokeTest]_block_invoke + 847
+	13  XCTest                              0x0000000119130a7d -[XCUITestContext performInScope:] + 248
+	14  XCTest                              0x00000001190d097f -[XCTestCase invokeTest] + 175
+	15  XCTest                              0x00000001190d2555 __26-[XCTestCase performTest:]_block_invoke_2 + 42
+	16  XCTest                              0x000000011912bae3 +[XCTestCase(Failures) performFailableBlock:shouldInterruptTest:] + 36
+	17  XCTest                              0x000000011912ba2e -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 54
+	18  XCTest                              0x00000001190d2402 __26-[XCTestCase performTest:]_block_invoke.318 + 90
+	19  XCTest                              0x0000000119138061 +[XCTContext runInContextForTestCase:block:] + 225
+	20  XCTest                              0x00000001190d1aff -[XCTestCase performTest:] + 673
+	21  XCTest                              0x0000000119114727 -[XCTest runTest] + 57
+	22  XCTest                              0x00000001190cd341 __27-[XCTestSuite performTest:]_block_invoke + 365
+	23  XCTest                              0x00000001190ccb1d -[XCTestSuite _performProtectedSectionForTest:testSection:] + 55
+	24  XCTest                              0x00000001190ccdde -[XCTestSuite performTest:] + 296
+	25  XCTest                              0x0000000119114727 -[XCTest runTest] + 57
+	26  XCTest                              0x00000001190cd341 __27-[XCTestSuite performTest:]_block_invoke + 365
+	27  XCTest                              0x00000001190ccb1d -[XCTestSuite _performProtectedSectionForTest:testSection:] + 55
+	28  XCTest                              0x00000001190ccdde -[XCTestSuite performTest:] + 296
+	29  XCTest                              0x0000000119114727 -[XCTest runTest] + 57
+	30  XCTest                              0x00000001190cd341 __27-[XCTestSuite performTest:]_block_invoke + 365
+	31  XCTest                              0x00000001190ccb1d -[XCTestSuite _performProtectedSectionForTest:testSection:] + 55
+	32  XCTest                              0x00000001190ccdde -[XCTestSuite performTest:] + 296
+	33  XCTest                              0x0000000119114727 -[XCTest runTest] + 57
+	34  XCTest                              0x0000000119141fa6 __44-[XCTTestRunSession runTestsAndReturnError:]_block_invoke + 40
+	35  XCTest                              0x00000001190e5389 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 594
+	36  XCTest                              0x0000000119141db1 -[XCTTestRunSession runTestsAndReturnError:] + 369
+	37  XCTest                              0x00000001190b3c71 -[XCTestDriver runTestsAndReturnError:] + 447
+	38  XCTest                              0x0000000119136bb1 _XCTestMain + 960
+	39  CoreFoundation                      0x000000010603db0c __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 12
+	40  CoreFoundation                      0x00000001060222db __CFRunLoopDoBlocks + 331
+	41  CoreFoundation                      0x0000000106021a84 __CFRunLoopRun + 1284
+	42  CoreFoundation                      0x000000010602130b CFRunLoopRunSpecific + 635
+	43  GraphicsServices                    0x000000010a322a73 GSEventRunModal + 62
+	44  UIKit                               0x0000000102d23057 UIApplicationMain + 159
+	45  BackSpaceChallange                  0x00000001016bb5b7 main + 55
+	46  libdyld.dylib                       0x0000000107274955 start + 1
+)</string>
+													<key>PerformanceFailure</key>
+													<false/>
+												</dict>
+											</array>
+											<key>TestIdentifier</key>
+											<string>BackSpaceChallangeTests/testNoDataAvailable()</string>
+											<key>TestName</key>
+											<string>testNoDataAvailable()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Failure</string>
+											<key>TestSummaryGUID</key>
+											<string>7FA14A02-086C-4E21-A486-019F4419981D</string>
+										</dict>
+										<dict>
+											<key>Duration</key>
+											<real>0.25253891944885254</real>
+											<key>PerformanceMetrics</key>
+											<array>
+												<dict>
+													<key>Identifier</key>
+													<string>com.apple.XCTPerformanceMetric_WallClockTime</string>
+													<key>MaxPercentRegression</key>
+													<integer>10</integer>
+													<key>MaxPercentRelativeStandardDeviation</key>
+													<integer>10</integer>
+													<key>MaxRegression</key>
+													<real>0.10000000000000001</real>
+													<key>MaxStandardDeviation</key>
+													<real>0.10000000000000001</real>
+													<key>Measurements</key>
+													<array>
+														<real>4.1459999999999998e-06</real>
+														<real>1.004e-06</real>
+														<real>6.4799999999999998e-07</real>
+														<real>5.9599999999999999e-07</real>
+														<real>4.7999999999999996e-07</real>
+														<real>5.2399999999999998e-07</real>
+														<real>5.6000000000000004e-07</real>
+														<real>5.5799999999999999e-07</real>
+														<real>4.89e-07</real>
+														<real>5.2300000000000001e-07</real>
+													</array>
+													<key>Name</key>
+													<string>Time</string>
+													<key>UnitOfMeasurement</key>
+													<string>seconds</string>
+												</dict>
+											</array>
+											<key>TestIdentifier</key>
+											<string>BackSpaceChallangeTests/testPerformanceExample()</string>
+											<key>TestName</key>
+											<string>testPerformanceExample()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>2E2127E9-17C9-490C-8C4A-13150EAB90DC</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>BackSpaceChallangeTests</string>
+									<key>TestName</key>
+									<string>BackSpaceChallangeTests</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>BackSpaceChallangeTests.xctest</string>
+							<key>TestName</key>
+							<string>BackSpaceChallangeTests.xctest</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>All tests</string>
+					<key>TestName</key>
+					<string>All tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -33,12 +33,10 @@ class HTTPClient: httpProtocols {
             completionHandler(nil)
             return
         }
-        
         if let myData = try? JSONDecoder().decode([cityData].self, from: data) {
             completionHandler(myData)
         } else {
             completionHandler(nil)
         }
-        
     }
 }

@@ -1,0 +1,12 @@
+[
+  {"country":"🇹🇱","name":"⏂test","_id":1,"coord":{"lon":34.283333,"lat":44.549999}},
+  {"country":"🇩🇿","name":"⍬test","_id":2,"coord":{"lon":37.666668,"lat":55.683334}},
+  {"country":"🏳️‍🌈","name":"🂃test","_id":3,"coord":{"lon":84.633331,"lat":28}},
+  {"country":"🇧🇷","name":"☺︎test","_id":4,"coord":{"lon":76,"lat":29}},
+  {"country":"🏴󠁧󠁢󠁷󠁬󠁳󠁿","name":"Ωtest","_id":5,"coord":{"lon":33.900002,"lat":44.599998}},
+  {"country":"🇺🇸","name":"🆓test","_id":6,"coord":{"lon":85.416664,"lat":28}},
+  {"country":"🇮🇴","name":"🈵test","_id":7,"coord":{"lon":37.611111,"lat":55.796391}},
+  {"country":"🇺🇾","name":"💡test","_id":8,"coord":{"lon":77,"lat":20}},
+  {"country":"🇲🇽","name":"🤼‍♀️test","_id":9,"coord":{"lon":85.316666,"lat":27.716667}},
+  {"country":"🏁","name":"🤕test","_id":10,"coord":{"lon":33.733334,"lat":44.416668}}
+]

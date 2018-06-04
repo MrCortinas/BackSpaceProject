@@ -12,22 +12,26 @@ import UIKit
 
 class DetailViewController: UIViewController,UITableViewDelegate, UITableViewDataSource, MKMapViewDelegate {
     
-    var itemToShow:[(info:String,value:String)] = CityDataMagager.share.getCityDetailInformation()
+    
+    let cityDataMagager = CityDataMagager()
+    var itemToShow:[(info:String,value:String)] = []
     @IBOutlet var mapView: MKMapView!
     @IBOutlet var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.itemToShow = cityDataMagager.getCityDetailInformation()
         // Do any additional setup after loading the view, typically from a nib.
         mapView.mapType = MKMapType.standard
-        if let location = CityDataMagager.share.currentCitySelected?.location {
+        guard let location = CityDataMagager.currentCitySelected?.location else { return }
+        if  cityDataMagager.validateLocation(location: location) {
             let span = MKCoordinateSpanMake(15, 15)
             let region =  MKCoordinateRegionMake(location, span)
             mapView.setRegion(region, animated: true)
             let annonation = MKPointAnnotation()
             annonation.coordinate = location
-            annonation.title = CityDataMagager.share.currentCitySelected?.name ?? ""
-            annonation.subtitle = CityDataMagager.share.currentCitySelected?.country ?? ""
+            annonation.title = CityDataMagager.currentCitySelected?.name ?? ""
+            annonation.subtitle = CityDataMagager.currentCitySelected?.country ?? ""
             mapView.addAnnotation(annonation)
         }
     }

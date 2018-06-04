@@ -1,0 +1,4 @@
+Test Suite 'Selected tests' started at 2018-06-03 22:01:48.473
+Test Suite 'BackSpaceChallangeTests.xctest' started at 2018-06-03 22:01:48.473
+Test Suite 'TestNoData' started at 2018-06-03 22:01:48.474
+Test Case '-[BackSpaceChallangeTests.TestNoData testNoDataAvailable]' started.

@@ -1,0 +1,38 @@
+00:05:19.063 Xcode[19349:1243288] Beginning test session BackSpaceChallangeTests-5F77B621-9305-4E89-B03A-E536273CEB4E at 2018-06-04 00:05:19.062 with Xcode 9F1027a on target <DVTiPhoneSimulator: 0x7f85fa0e2350> {
+		SimDevice: iPhone 8 Plus (C88FBC94-57B3-44EE-AB8B-F335396179AA, iOS 11.4, Booted)
+} (11.4 (15F79))
+00:05:19.063 Xcode[19349:1243288] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+00:05:19.063 Xcode[19349:1243288] Test standard output and standard error is at /var/folders/57/wgbgzwt95b7d7qdvn2d9ff340000gn/T/com.apple.dt.XCTest/IDETestRunSession-2056726A-71E4-406F-AD3A-29A15EE8727F/BackSpaceChallangeTests-E1868797-360F-4065-9619-59BC8AF084F7/StandardOutputAndStandardError.txt
+00:05:19.063 Xcode[19349:1243288] Simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was claimed by TestSessionClaim_IDETestRunSession-2056726A-71E4-406F-AD3A-29A15EE8727F
+00:05:21.045 Xcode[19349:1243288] Launch session started.
+00:05:21.098 Xcode[19349:1243288] Received Ready from iOSSimulator
+00:05:21.098 Xcode[19349:1243288] Sending notification: NSConcreteNotification 0x7f85c98272a0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "C88FBC94-57B3-44EE-AB8B-F335396179AA";
+}}
+00:05:21.098 Xcode[19349:3809523] Simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was claimed by LaunchSessionClaim_0x7f85cc69ad70
+00:05:21.104 Xcode[19349:1243288] Setting up test runner session
+00:05:21.105 Xcode[19349:3809525] Sim iPhone 8 Plus: Unregistering for sim device notification with token 320
+00:05:21.106 Xcode[19349:3809525] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+00:05:21.110 Xcode[19349:3809525] Sim iPhone 8 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.k8YuOgdX2g/com.apple.testmanagerd.unix-domain.socket
+00:05:21.110 Xcode[19349:3809525] Validating test connection socket path (/private/tmp/com.apple.launchd.k8YuOgdX2g/com.apple.testmanagerd.unix-domain.socket)
+00:05:21.110 Xcode[19349:3809525] Constructing transport for test connection socket
+00:05:21.110 Xcode[19349:3809525] Connected socket 163 to testmanagerd for Sim iPhone 8 Plus
+00:05:21.110 Xcode[19349:3809525] Received connection for test runner session
+00:05:21.110 Xcode[19349:3809525] Listening for proxy connection request from the test bundle
+00:05:21.111 Xcode[19349:3809525] Initiating session with identifier: 5F77B621-9305-4E89-B03A-E536273CEB4E
+00:05:21.153 Xcode[19349:1243288] Adding console adaptor <IDEConsoleAdaptor: 0x7f85bd998bc0 'target' stdin: <IDEMasterPtyFileHandle: 0x7f85f70458c0 MasterFH: <NSConcreteFileHandle: 0x7f85bd947850> 161 SlaveFH: <NSConcreteFileHandle: 0x7f85d2d65640> 147> 161 stdout: <IDEMasterPtyFileHandle: 0x7f85f70458c0 MasterFH: <NSConcreteFileHandle: 0x7f85bd947850> 161 SlaveFH: <NSConcreteFileHandle: 0x7f85d2d65640> 147> 161 stderr: (null) 0> for test session 5F77B621-9305-4E89-B03A-E536273CEB4E.
+00:05:21.173 Xcode[19349:1243288] Received Ready from iOSSimulator
+00:05:21.173 Xcode[19349:1243288] Sending notification: NSConcreteNotification 0x7f85cd0e7ee0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "C88FBC94-57B3-44EE-AB8B-F335396179AA";
+}}
+00:05:21.173 Xcode[19349:3809341] Simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was claimed by LaunchSessionClaim_0x7f85cc69ad70
+00:05:21.174 Xcode[19349:3809341] C88FBC94-57B3-44EE-AB8B-F335396179AA: Registered for sim device notification, got token 321
+00:05:21.174 Xcode[19349:1243288] Test runner session acquired connection.
+00:05:21.174 Xcode[19349:1243288] Waiting for test process to launch.
+00:05:21.176 Xcode[19349:3809525] C88FBC94-57B3-44EE-AB8B-F335396179AA: Unregistering for sim device notification with token 321
+00:05:21.176 Xcode[19349:3809523] C88FBC94-57B3-44EE-AB8B-F335396179AA: Installing app at path: /Users/gabrielcortinas/Desktop/Xcode Examples/BackSpace/BackSpaceProject/BackSpaceChallange/DerivedData/BackSpaceChallange/Build/Products/Debug-iphonesimulator/BackSpaceChallange.app and options: (null)
+00:05:21.193 Xcode[19349:3809525] Got reply to session initiation request with identifier 5F77B621-9305-4E89-B03A-E536273CEB4E (result:error): 25: (null)
+00:05:21.785 Xcode[19349:1243288] Claim LaunchSessionClaim_0x7f85cc69ad70 on simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was relinquished
+00:05:21.786 Xcode[19349:1243288] Claim LaunchSessionClaim_0x7f85cc69ad70 on simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was relinquished
+00:05:21.788 Xcode[19349:1243288] Test operation failure: Test operation was canceled.
+00:05:21.788 Xcode[19349:1243288] _finishWithError:Error Domain=IDETestOperationsObserverErrorDomain Code=14 "Test operation was canceled." UserInfo={NSLocalizedDescription=Test operation was canceled.}
